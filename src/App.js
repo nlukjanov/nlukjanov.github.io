@@ -12,11 +12,6 @@ function App() {
   return (
     <>
       <Intro />
-      <Projects />
-      <div className='section hero is-fullheight'>
-        <Skills />
-        <Contact />
-      </div>
     </>
   )
 }
