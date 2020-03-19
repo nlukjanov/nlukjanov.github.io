@@ -26,3 +26,7 @@ i {
 figure {
   text-align: center;
 }
+
+svg {
+  fill: #545454;
+}
