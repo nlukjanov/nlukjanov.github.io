@@ -18,3 +18,11 @@ i {
   display: inline-block;
   width: 100%;
 }
+
+.label {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
