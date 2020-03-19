@@ -113,8 +113,6 @@ const Skills = () => {
                 xmlns='http://www.w3.org/2000/svg'
                 aria-hidden='true'
                 focusable='false'
-                width='3em'
-                height='3em'
                 preserveAspectRatio='xMidYMid meet'
                 viewBox='0 0 32 32'
               >
@@ -134,8 +132,6 @@ const Skills = () => {
             <figure className='image is-square is-paddingless'>
               <svg
                 viewBox='0 0 24 24'
-                width='3em'
-                height='3em'
                 preserveAspectRatio='xMidYMid meet'
                 xmlns='http://www.w3.org/2000/svg'
               >
