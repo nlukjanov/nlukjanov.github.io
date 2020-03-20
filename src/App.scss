@@ -1,0 +1,88 @@
+$green: rgb(0, 249, 0);
+
+.column > i {
+  font-size: 3rem;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.label {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+svg {
+  fill: #545454;
+  width: 3rem;
+  height: 3rem;
+}
+
+.column {
+  figure {
+    height: 50px;
+  }
+}
+
+a {
+  figure {
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+a {
+  i {
+    font-size: 1.5rem;
+  }
+}
+
+.text {
+  padding-left: 10px;
+}
+
+.slidecontrol {
+  margin-bottom: 30px;
+
+  button {
+    cursor: pointer;
+    border: none;
+    font-weight: 300;
+    color: black;
+    padding: 10px 14px;
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .pagenum {
+    transition: color 0.3s ease-in-out;
+  }
+
+  .pagenum:hover {
+    color: $green;
+  }
+
+  .current {
+    color: $green;
+    font-weight: 700;
+    border-bottom: 0.2rem solid $green;
+  }
+
+  .arrow {
+    color: lightgray;
+  }
+
+  .active {
+    color: $green;
+  }
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
