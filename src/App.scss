@@ -1,4 +1,5 @@
 $green: rgb(0, 249, 0);
+$dark-grey: #363636;
 
 .column > i {
   font-size: 3rem;
@@ -16,7 +17,7 @@ figure {
 }
 
 svg {
-  fill: #545454;
+  fill:$dark-grey;
   width: 3rem;
   height: 3rem;
 }
@@ -46,8 +47,10 @@ a {
   padding-left: 10px;
 }
 
+// Projects
+
 .slidecontrol {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
   button {
     cursor: pointer;
@@ -74,10 +77,6 @@ a {
     border-bottom: 0.2rem solid $green;
   }
 
-  .arrow {
-    color: lightgray;
-  }
-
   .active {
     color: $green;
   }
@@ -85,4 +84,17 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+// Contact
+
+.level-item {
+  color: $dark-grey;
+
+  &:hover {
+    color: $green;
+    svg {
+      fill: $green;
+    }
+  }
 }
