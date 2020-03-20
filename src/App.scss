@@ -47,6 +47,10 @@ a {
   padding-left: 10px;
 }
 
+.intro-text {
+  font-size: 2rem;
+}
+
 // Projects
 
 .slidecontrol {
@@ -54,6 +58,7 @@ a {
 
   button {
     cursor: pointer;
+    background-color: white;
     border: none;
     font-weight: 300;
     color: black;
@@ -64,7 +69,7 @@ a {
   }
 
   .pagenum {
-    transition: color 0.3s ease-in-out;
+    transition: color 0.5s ease-in-out;
   }
 
   .pagenum:hover {
