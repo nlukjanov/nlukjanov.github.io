@@ -12,7 +12,11 @@ function App() {
   return (
     <>
       <Intro />
-      <Contact />
+      <Projects />
+      <div className='section hero is-fullheight'>
+        <Skills />
+        <Contact />
+      </div>
     </>
   )
 }
