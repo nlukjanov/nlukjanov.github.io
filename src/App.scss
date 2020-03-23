@@ -1,0 +1,116 @@
+$green: rgb(0, 249, 0);
+$dark-grey: rgb(74, 74, 74);
+
+.column > i {
+  font-size: 3rem;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.label {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+svg {
+  fill: $dark-grey;
+  width: 3rem;
+  height: 3rem;
+}
+
+.column {
+  figure {
+    height: 50px;
+  }
+}
+
+a {
+  figure {
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+a {
+  i {
+    font-size: 1.5rem;
+  }
+}
+
+.text {
+  padding-left: 10px;
+}
+
+.intro-text {
+  font-size: 2rem;
+}
+
+// Projects
+
+.slide-control {
+  margin-bottom: 0.5rem;
+
+  button {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-weight: 300;
+    color: black;
+    padding: 10px 14px;
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .project-number {
+    transition: color 0.5s ease-in-out;
+  }
+
+  .project-number:hover {
+    color: $green;
+  }
+
+  .current {
+    color: $green;
+    font-weight: 700;
+    border-bottom: 0.2rem solid $green;
+  }
+
+  .active {
+    color: $green;
+  }
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  i {
+    padding: 0 1rem;
+    font-size: 2rem;
+  }
+}
+
+// Contact
+
+.level-item {
+  color: $green;
+  svg {
+    fill: $green;
+  }
+
+  &:hover {
+    color: $dark-grey;
+    svg {
+      fill: $dark-grey;
+    }
+  }
+}
