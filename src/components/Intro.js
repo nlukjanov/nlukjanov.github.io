@@ -19,9 +19,6 @@ const Intro = () => {
             can solve problems, contribute, learn and further grow as an
             engineer.
           </p>
-          <br/>
-          <br/>
-          <p>MORE INFO COMING SOON</p>
         </div>
       </div>
     </section>
