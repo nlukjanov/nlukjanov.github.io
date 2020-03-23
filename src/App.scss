@@ -1,5 +1,5 @@
 $green: rgb(0, 249, 0);
-$dark-grey: #363636;
+$dark-grey: rgb(74, 74, 74);
 
 .column > i {
   font-size: 3rem;
@@ -17,7 +17,7 @@ figure {
 }
 
 svg {
-  fill:$dark-grey;
+  fill: $dark-grey;
   width: 3rem;
   height: 3rem;
 }
@@ -53,8 +53,8 @@ a {
 
 // Projects
 
-.slidecontrol {
-  margin-bottom: 20px;
+.slide-control {
+  margin-bottom: 0.5rem;
 
   button {
     cursor: pointer;
@@ -68,11 +68,11 @@ a {
     }
   }
 
-  .pagenum {
+  .project-number {
     transition: color 0.5s ease-in-out;
   }
 
-  .pagenum:hover {
+  .project-number:hover {
     color: $green;
   }
 
@@ -91,15 +91,26 @@ a {
   justify-content: center;
 }
 
+.content {
+  text-align: center;
+  i {
+    padding: 0 1rem;
+    font-size: 2rem;
+  }
+}
+
 // Contact
 
 .level-item {
-  color: $dark-grey;
+  color: $green;
+  svg {
+    fill: $green;
+  }
 
   &:hover {
-    color: $green;
+    color: $dark-grey;
     svg {
-      fill: $green;
+      fill: $dark-grey;
     }
   }
 }
