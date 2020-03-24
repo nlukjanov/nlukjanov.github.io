@@ -58,7 +58,6 @@ const projects = [
     stack: [
       'devicon-react-original',
       'devicon-webpack-plain',
-      'devicon-javascript-plain',
       'devicon-html5-plain',
       'devicon-css3-plain'
     ],
@@ -129,7 +128,7 @@ const Projects = () => {
         >
           <button
             className={
-              'project-number level-item is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-5 is-family-secondary ' +
               `${project === 1 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -140,7 +139,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number level-item is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-5 is-family-secondary ' +
               `${project === 2 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -151,7 +150,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number level-item is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-5 is-family-secondary ' +
               `${project === 3 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -162,7 +161,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number level-item is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-5 is-family-secondary ' +
               `${project === 4 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -173,7 +172,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number level-item is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-5 is-family-secondary ' +
               `${project === 5 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -184,7 +183,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number level-item is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-5 is-family-secondary ' +
               `${project === 6 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -195,7 +194,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number level-item is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-5 is-family-secondary ' +
               `${project === 7 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -207,7 +206,7 @@ const Projects = () => {
         </nav>
       </div>
       <div className='projects'>
-        <h2 className='has-text-centered is-size-2'>
+        <h2 className='has-text-centered is-size-3'>
           {currentProject.projectName}
         </h2>
         <div className='tile is-ancestor'>

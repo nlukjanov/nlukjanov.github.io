@@ -1,4 +1,4 @@
-$green: rgb(0, 249, 0);
+$highlight: rgb(0, 249, 0);
 $dark-grey: rgb(74, 74, 74);
 
 .column > i {
@@ -68,22 +68,28 @@ a {
     }
   }
 
+  @media only screen and (min-width: 400px) {
+    button {
+      margin-right: 1rem;
+    }
+  }
+
   .project-number {
     transition: color 0.5s ease-in-out;
   }
 
   .project-number:hover {
-    color: $green;
+    color: $highlight;
   }
 
   .current {
-    color: $green;
+    color: $highlight;
     font-weight: 700;
-    border-bottom: 0.2rem solid $green;
+    border-bottom: 0.2rem solid $highlight;
   }
 
   .active {
-    color: $green;
+    color: $highlight;
   }
 
   display: flex;
@@ -102,9 +108,9 @@ a {
 // Contact
 
 .level-item {
-  color: $green;
+  color: $highlight;
   svg {
-    fill: $green;
+    fill: $highlight;
   }
 
   &:hover {
