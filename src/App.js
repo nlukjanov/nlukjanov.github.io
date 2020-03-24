@@ -11,11 +11,13 @@ import Contact from './components/Contact'
 function App() {
   return (
     <>
-      <Intro />
-      <Projects />
-      <div className='section hero is-fullheight'>
-        <Skills />
-        <Contact />
+      <div className='section'>
+        <Intro />
+        <Projects />
+        <div className='section hero is-fullheight'>
+          <Skills />
+          <Contact />
+        </div>
       </div>
     </>
   )
