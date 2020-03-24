@@ -2,10 +2,10 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='' id='contact'>
+    <section className='section' id='contact'>
       <div className='container'>
-        <div className='title'>Contact</div>
-        <div className='level'>
+        <button className="button is-rounded has-text-primary">Call me to action!</button>
+        {/* <div className='level'>
           <a
             className='level-item is-centered is-size-6'
             href='https://github.com/nlukjanov'
@@ -32,7 +32,7 @@ const Contact = () => {
               linkedin.com/in/nikita-lukjanov
             </div>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   )

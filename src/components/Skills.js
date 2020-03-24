@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section id='skills'>
       <div className='container'>
-        <div className='title'>Skills</div>
+        <div className='is-size-2'>Skills</div>
 
         <div className='columns is-mobile is-multiline'>
           <div className='column is-4-mobile is-3-tablet is-2-desktop'>

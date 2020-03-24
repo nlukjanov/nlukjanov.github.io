@@ -1,8 +1,28 @@
+@import "../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../node_modules//bulma/sass/utilities/functions";
+
+@font-face {
+  font-family: 'fourmasters-vandenkeere';
+  src: url('./fourmasters-vandenkeere.otf') format('opentype');
+}
+
 $highlight: rgb(0, 249, 0);
 $dark-grey: rgb(74, 74, 74);
+$main-color: rgb(33, 91, 245);
+
+$primary: $main-color;
+
+
+@import "../node_modules/bulma";
+body {
+  font-family: 'fourmasters-vandenkeere', sans-serif;
+  color: $main-color;
+
+}
 
 .column > i {
-  font-size: 3rem;
+  color: $dark-grey;
+  font-size: 2rem;
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -10,6 +30,7 @@ $dark-grey: rgb(74, 74, 74);
 
 .label {
   text-align: center;
+
 }
 
 figure {
@@ -18,13 +39,13 @@ figure {
 
 svg {
   fill: $dark-grey;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .column {
   figure {
-    height: 50px;
+    height: 36px;
   }
 }
 
@@ -45,10 +66,6 @@ a {
 
 .text {
   padding-left: 10px;
-}
-
-.intro-text {
-  font-size: 2rem;
 }
 
 // Projects
@@ -79,17 +96,17 @@ a {
   }
 
   .project-number:hover {
-    color: $highlight;
+    color: $main-color;
   }
 
   .current {
-    color: $highlight;
+    color: $main-color;
     font-weight: 700;
-    border-bottom: 0.2rem solid $highlight;
+    border-bottom: 0.2rem solid $main-color;
   }
 
   .active {
-    color: $highlight;
+    color: $main-color;
   }
 
   display: flex;
@@ -108,9 +125,9 @@ a {
 // Contact
 
 .level-item {
-  color: $highlight;
+  color: $main-color;
   svg {
-    fill: $highlight;
+    fill: $main-color;
   }
 
   &:hover {
@@ -120,3 +137,5 @@ a {
     }
   }
 }
+
+

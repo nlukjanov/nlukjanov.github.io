@@ -119,7 +119,7 @@ const Projects = () => {
 
   return (
     <section className='section hero is-fullheight' id='projects'>
-      <div className='title'>Projects</div>
+      <div className='is-size-2'>Projects</div>
       <div className='slide-control'>
         <nav
           className='level is-centered is-mobile'

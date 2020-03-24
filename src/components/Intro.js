@@ -1,11 +1,13 @@
 import React from 'react'
+import Contact from './Contact'
+
 const Intro = () => {
   return (
     <section className='hero is-fullheight' id='intro'>
-      <div className='hero-body'>
+      <div className=''>
         <div className='container has-text-centered'>
-          <h1 className='title is-size-1-tablet'>Nikita Lukjanov</h1>
-          <h2 className='subtitle is-size-2-tablet'>Software Developer</h2>
+          <h1 className='is-size-1-tablet'>Nikita Lukjanov</h1>
+          <h2 className='is-size-2-tablet'>Software Developer</h2>
           <p className='is-size-4-tablet'>
             I am a full-stack software engineer skilled in JavaScript and
             Python. I build functional, tested software and I am always up for a
@@ -19,6 +21,7 @@ const Intro = () => {
             can solve problems, contribute, learn and further grow as an
             engineer.
           </p>
+          <Contact />
         </div>
       </div>
     </section>
