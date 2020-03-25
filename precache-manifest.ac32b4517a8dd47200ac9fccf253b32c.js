@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2d7673f194b8bad86340e5eea0cd78e",
+    "revision": "70b309fcd19dff88cc1a6b83c25bbebc",
     "url": "/index.html"
   },
   {
-    "revision": "c5b75851aa0e59cf362e",
-    "url": "/static/css/2.1c2325a6.chunk.css"
+    "revision": "a6a8f98244205d979771",
+    "url": "/static/css/main.46eb5b97.chunk.css"
   },
   {
-    "revision": "e8f5cbf3800a7db159ed",
-    "url": "/static/css/main.ce42cd60.chunk.css"
-  },
-  {
-    "revision": "c5b75851aa0e59cf362e",
-    "url": "/static/js/2.b8e5b82a.chunk.js"
+    "revision": "905b137a10ac237e911d",
+    "url": "/static/js/2.d4162870.chunk.js"
   },
   {
     "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/static/js/2.b8e5b82a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d4162870.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e8f5cbf3800a7db159ed",
-    "url": "/static/js/main.863e9169.chunk.js"
+    "revision": "a6a8f98244205d979771",
+    "url": "/static/js/main.4274e8b4.chunk.js"
   },
   {
     "revision": "2ab5528f29807ec3af41",
@@ -64,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dietlogue3.3af79a2b.png"
   },
   {
+    "revision": "dcd0269e7e1920640b14e08d768eb412",
+    "url": "/static/media/fourmasters-vandenkeere.dcd0269e.otf"
+  },
+  {
     "revision": "688cdf059a68dec4bc57c42e254dbdaa",
     "url": "/static/media/rs1.688cdf05.png"
   },
@@ -76,16 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/rs3.be9b5b6e.png"
   },
   {
-    "revision": "d79028b6b8566f943faf89725395d626",
-    "url": "/static/media/tetris1.d79028b6.png"
+    "revision": "daefa885cb724b056392c3a719fc7792",
+    "url": "/static/media/tetris1.daefa885.png"
   },
   {
-    "revision": "d36a306187b2c03bd9ff22a82ed56a8a",
-    "url": "/static/media/tetris2.d36a3061.png"
+    "revision": "006e62963b6551c3c6faf19039977460",
+    "url": "/static/media/tetris2.006e6296.png"
   },
   {
-    "revision": "098d5bf27beab81a8c3ccea862bc8437",
-    "url": "/static/media/tetris3.098d5bf2.png"
+    "revision": "51a2821237cb435dec31166ecd7e4486",
+    "url": "/static/media/tetris3.51a28212.png"
   },
   {
     "revision": "72f0aa1bd3379682b881f84df179c94f",
