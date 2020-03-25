@@ -5,16 +5,16 @@ const Intro = () => {
   return (
     <section className='hero hero-body is-fullheight' id='intro'>
       <div className='container has-text-centered'>
-        <h1 className='is-size-3-mobile is-size-1-tablet'>
+        <h1 className='intro-text'>
           <span className='invert'>Nikita Lukjanov</span>
         </h1>
-        <h2 className='is-size-4-mobile is-size-2-tablet'>
-          <span className='invert'>Software Developer</span>
+        <h2 className='intro-text'>
+          <span className='invert'>software developer</span>
         </h2>
-        <h2 className='is-size-4-mobile is-size-2-tablet'>
+        <h2 className='intro-text'>
           <span className='symbol'> </span>
         </h2>
-        <p className=' intro-text'>
+        <p className='intro-text'>
           I am a full-stack software engineer skilled in JavaScript and Python.
           I build functional, tested software and I am always up for a
           challenge. I am curious, I like solving complex problems and learning

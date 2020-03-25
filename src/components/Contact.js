@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='section' id='contact'>
+    <section className='contact' id='contact'>
       <div className='container'>
         <button className="button is-rounded has-text-primary">Call me to action!</button>
         {/* <div className='level'>

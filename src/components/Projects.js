@@ -149,6 +149,14 @@ const Projects = () => {
       <p className='is-size-6 has-text-centered description'>
         {currentProject.description}
       </p>
+      <div className="columns">
+        <div className="column">
+          {currentProject.deployed}
+        </div>
+        <div className="column">
+          {currentProject.repo}
+        </div>
+      </div>
       <div className='slide-control'>
         <nav
           className='level is-centered is-mobile'
@@ -235,11 +243,17 @@ const Projects = () => {
         </nav>
       </div>
       <div className='columns'>
-        <div className='column'><img src={currentProject.images[0]} alt="project"/></div>
-        <div className='column'><img src={currentProject.images[1]} alt="project"/></div>
-        <div className='column'><img src={currentProject.images[2]} alt="project"/></div>
+        <div className='column'>
+          <img src={currentProject.images[0]} alt='project' />
+        </div>
+        <div className='column'>
+          <img src={currentProject.images[1]} alt='project' />
+        </div>
+        <div className='column'>
+          <img src={currentProject.images[2]} alt='project' />
+        </div>
       </div>
-      <Skills stack={currentProject.stack}/>
+      <Skills stack={currentProject.stack} />
     </section>
   )
 }

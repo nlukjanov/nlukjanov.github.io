@@ -17,16 +17,38 @@ $primary: $main-color;
 body {
   font-family: 'fourmasters-vandenkeere', sans-serif;
   color: $main-color;
+}
 
+
+// Font sizes
+
+@media only screen and (max-width: 768px) {
+  .intro-text {
+    font-size: 1.1rem;
+  }
 }
 
 @media only screen and (min-width: 769px) {
   .intro-text {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .intro-text {
+    font-size: 1.9rem;
+  }
+}
 
+@media only screen and (min-width: 1216px) {
+  .intro-text {
+    font-size: 2.1rem;
+  }
+}
+
+.contact {
+  margin: 1rem;
+}
 
 .column > i {
   color: $dark-grey;
@@ -38,7 +60,7 @@ body {
 
 .label {
   text-align: center;
-
+  font-family: "Helvetica", sans-serif;
 }
 
 figure {
@@ -114,7 +136,7 @@ a {
 }
 
 .slide-control {
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 
   button {
     cursor: pointer;
