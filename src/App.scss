@@ -1,5 +1,5 @@
-@import "../node_modules/bulma/sass/utilities/initial-variables.sass";
-@import "../node_modules//bulma/sass/utilities/functions";
+@import '../node_modules/bulma/sass/utilities/initial-variables.sass';
+@import '../node_modules//bulma/sass/utilities/functions';
 
 @font-face {
   font-family: 'fourmasters-vandenkeere';
@@ -12,12 +12,11 @@ $main-color: rgb(33, 91, 245);
 
 $primary: $main-color;
 
-@import "../node_modules/bulma";
+@import '../node_modules/bulma';
 body {
   font-family: 'fourmasters-vandenkeere', sans-serif;
   color: $main-color;
 }
-
 
 // Intro
 
@@ -55,7 +54,6 @@ body {
   }
 }
 
-
 // Contact
 
 .contact {
@@ -81,7 +79,6 @@ a {
   padding-left: 10px;
 }
 
-
 .columns.is-mobile {
   .column {
     margin: 0.5rem 1rem;
@@ -105,7 +102,7 @@ a {
 
 .label {
   text-align: center;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 figure {
@@ -124,9 +121,7 @@ svg {
   }
 }
 
-
 .skill-highlight {
-
   .label {
     color: $main-color;
   }
@@ -149,7 +144,7 @@ svg {
 }
 
 .slide-control {
-  margin: 2rem 0;
+  margin: 0 0 2rem 0;
 
   button {
     cursor: pointer;
@@ -166,7 +161,7 @@ svg {
 
   @media only screen and (min-width: 400px) {
     button {
-      margin: 0 1rem;
+      margin: 0 0.5rem;
     }
   }
 
@@ -203,6 +198,30 @@ svg {
   }
 }
 
+.deployment-links {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  a {
+    &:hover {
+      i {
+        color: $main-color;
+      }
+      .label {
+        color: $main-color;
+      }
+    }
+    text-align: center;
+    i {
+      color: $dark-grey;
+      font-size: 2rem;
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
 // Contact
 
 .level-item {
@@ -218,5 +237,3 @@ svg {
     }
   }
 }
-
-

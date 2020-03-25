@@ -149,16 +149,24 @@ const Projects = () => {
       <div className='columns'>
         <div className='column'>
           <img src={currentProject.images[0]} alt='project' />
-          <div className='column'>{currentProject.deployed}</div>
         </div>
         <div className='column'>
           <p className='is-size-6 has-text-centered description'>
             {currentProject.description}
           </p>
+          <div className='deployment-links'>
+            <a href={currentProject.repo}>
+              <i className='devicon-github-plain'></i>
+              <div className='label'>Repo</div>
+            </a>
+            <a href={currentProject.deployed}>
+              <i className='devicon-heroku-original'></i>
+              <div className='label'>Deployed</div>
+            </a>
+          </div>
         </div>
         <div className='column'>
           <img src={currentProject.images[2]} alt='project' />
-          <div className='column'>{currentProject.repo}</div>
         </div>
       </div>
       <div className='slide-control'>
