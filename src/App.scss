@@ -16,6 +16,7 @@ $primary: $main-color;
 body {
   font-family: 'fourmasters-vandenkeere', sans-serif;
   color: $main-color;
+  margin: 0;
 }
 
 // Intro
@@ -97,6 +98,13 @@ body {
 }
 
 // Contact
+
+
+.button {
+  border-radius: 16px;
+  padding: calc(0.5em - 1px) 2em;
+  background-image: linear-gradient( 180deg, white 60%, $main-color), linear-gradient(90deg, white 60%, $main-color);
+}
 
 .contact {
   margin: 1rem;

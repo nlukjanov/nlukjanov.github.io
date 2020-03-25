@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section className='contact' id='contact'>
       <div className='container'>
-        <button className="button is-rounded has-text-primary">Call me to action!</button>
+        <button className="button has-text-primary">Call me to action!</button>
         {/* <div className='level'>
           <a
             className='level-item is-centered is-size-6'
