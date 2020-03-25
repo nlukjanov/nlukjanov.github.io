@@ -68,17 +68,52 @@ a {
   padding-left: 10px;
 }
 
+.is-underlined {
+  text-decoration: underline;
+}
+
+.invert {
+  background-color: $main-color;
+  color: white;
+}
+
+.symbol {
+  white-space: pre;
+  background-color: $main-color;
+}
+
+.skill-highlight {
+  background-color: $main-color;
+  .label {
+    color: white;
+  }
+  i {
+    color: white;
+  }
+  figure {
+    svg {
+      fill: white;
+    }
+  }
+}
+
 // Projects
 
+.description {
+  margin: 0 auto;
+  max-width: 480px;
+}
+
 .slide-control {
-  margin-bottom: 0.5rem;
+  margin: 1.5rem 0;
 
   button {
     cursor: pointer;
     background-color: white;
     border: none;
     font-weight: 300;
-    color: black;
+    font-family: 'fourmasters-vandenkeere', sans-serif;
+    color: $main-color;
     padding: 10px 14px;
     &:focus {
       outline: 0;
@@ -87,7 +122,7 @@ a {
 
   @media only screen and (min-width: 400px) {
     button {
-      margin-right: 1rem;
+      margin: 0 1rem;
     }
   }
 
@@ -100,9 +135,15 @@ a {
   }
 
   .current {
-    color: $main-color;
+    color: white;
     font-weight: 700;
-    border-bottom: 0.2rem solid $main-color;
+
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+
+    background-color: $main-color;
+    color: white;
+    text-align: center;
   }
 
   .active {

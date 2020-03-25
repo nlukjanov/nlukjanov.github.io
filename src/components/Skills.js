@@ -1,65 +1,65 @@
 import React from 'react'
 
-const Skills = () => {
+const Skills = ({stack}) => {
+  console.log(stack)
   return (
-    <section id='skills'>
-      <div className='container'>
-        <div className='is-size-2'>Skills</div>
-
+    <section className='section' id='skills'>
+      <div className=''>
+        <div className='is-size-2 has-text-centered is-underlined'>Tools:</div>
         <div className='columns is-mobile is-multiline'>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-javascript-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-javascript-plain'></i>
             <div className='label'>JavaScript</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-react-original') ? 'skill-highlight' : ''}`}>
             <i className='devicon-react-original'></i>
             <div className='label'>React.js</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-nodejs-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-nodejs-plain'></i>
             <div className='label'>Node.js</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-express-original') ? 'skill-highlight' : ''}`}>
             <i className='devicon-express-original'></i>
             <div className='label'>Express.js</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-mongodb-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-mongodb-plain'></i>
             <div className='label'>MongoDB</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-python-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-python-plain'></i>
             <div className='label'>Python</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-django-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-django-plain'></i>
             <div className='label'>Django</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-webpack-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-webpack-plain'></i>
             <div className='label'>Webpack</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-html5-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-html5-plain'></i>
             <div className='label'>HTML</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-css3-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-css3-plain'></i>
             <div className='label'>CSS</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-sass-original') ? 'skill-highlight' : ''}`}>
             <i className='devicon-sass-original'></i>
             <div className='label'>SASS</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-ruby-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-ruby-plain'></i>
             <div className='label'>Ruby</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-rails-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-rails-plain'></i>
             <div className='label'>Rails</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('npm') ? 'skill-highlight' : ''}`}>
             <figure className='image is-square is-paddingless'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -71,7 +71,7 @@ const Skills = () => {
             </figure>
             <div className='label'>NPM</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('yarn') ? 'skill-highlight' : ''}`}>
             <figure className='image is-square is-paddingless'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -83,31 +83,31 @@ const Skills = () => {
             </figure>
             <div className='label'>Yarn</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-postgresql-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-postgresql-plain'></i>
             <div className='label'>PostgreSQL</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-mocha-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-mocha-plain'></i>
             <div className='label'>Mocha.js</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-git-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-git-plain'></i>
             <div className='label'>Git</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-github-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-github-plain'></i>
             <div className='label'>GitHub</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-heroku-original') ? 'skill-highlight' : ''}`}>
             <i className='devicon-heroku-original'></i>
             <div className='label'>Heroku</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-visualstudio-plain') ? 'skill-highlight' : ''}`}>
             <i className='devicon-visualstudio-plain'></i>
             <div className='label'>VSCode</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('postman') ? 'skill-highlight' : ''}`}>
             <figure className='image is-square is-paddingless'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -116,19 +116,16 @@ const Skills = () => {
                 preserveAspectRatio='xMidYMid meet'
                 viewBox='0 0 32 32'
               >
-                <path
-                  d='M18.036.131C9.271-.989 1.255 5.198.131 13.964c-1.12 8.765 5.067 16.781 13.833 17.905c8.765 1.12 16.781-5.067 17.9-13.833C32.989 9.271 26.803 1.255 18.036.131zm3.292 9.984c-.297 0-.579.12-.787.333l-5.937 5.932l-.411-.407l-.855-.859c5.849-5.833 6.907-5.891 7.989-5zm-6.479 6.478l5.916-5.921a.831.831 0 0 1 1.204.005a.825.825 0 0 1-.073 1.197l-6.265 5.5zm.438.928l-1.469.317a.085.085 0 0 1-.088-.047a.08.08 0 0 1 .016-.095l.859-.859zm-3.74-.614l1.568-1.563l1.172 1.172l-2.641.567a.1.1 0 0 1-.115-.052a.102.102 0 0 1 .016-.124zm-4.859 8.077c-.057-.005-.1-.057-.095-.109a.122.122 0 0 1 .032-.063h.005l1.26-1.26l1.631 1.631zm3.233-1.677a.313.313 0 0 0-.156.344l.271 1.152c.043.167-.161.28-.281.156H9.75l-1.635-1.636l5.016-5.011l2.427-.525l1.161 1.167c-1.672 1.468-3.959 2.932-6.797 4.353zm7.038-4.567l-1.12-1.12l6.265-5.5c.057-.052.109-.109.156-.167c-.192 1.792-2.703 4.323-5.301 6.787zm4.88-8.615h-.005c-2.183-2.193.901-5.563 3.276-3.584l-2.145 2.152a.161.161 0 0 0 0 .228l1.661 1.663a2.418 2.418 0 0 1-2.787-.459zm3.432 0a2.136 2.136 0 0 1-.359.291l-1.609-1.609l2.041-2.047a2.428 2.428 0 0 1-.073 3.365zm-.131-2.057a.19.19 0 0 0-.072.208a.548.548 0 0 1-.068.599a.185.185 0 0 0 .031.265a.198.198 0 0 0 .109.037c.057 0 .111-.021.141-.063a.931.931 0 0 0 .12-1.005a.185.185 0 0 0-.261-.041z'
-                  fill='#626262'
-                />
+                <path d='M18.036.131C9.271-.989 1.255 5.198.131 13.964c-1.12 8.765 5.067 16.781 13.833 17.905c8.765 1.12 16.781-5.067 17.9-13.833C32.989 9.271 26.803 1.255 18.036.131zm3.292 9.984c-.297 0-.579.12-.787.333l-5.937 5.932l-.411-.407l-.855-.859c5.849-5.833 6.907-5.891 7.989-5zm-6.479 6.478l5.916-5.921a.831.831 0 0 1 1.204.005a.825.825 0 0 1-.073 1.197l-6.265 5.5zm.438.928l-1.469.317a.085.085 0 0 1-.088-.047a.08.08 0 0 1 .016-.095l.859-.859zm-3.74-.614l1.568-1.563l1.172 1.172l-2.641.567a.1.1 0 0 1-.115-.052a.102.102 0 0 1 .016-.124zm-4.859 8.077c-.057-.005-.1-.057-.095-.109a.122.122 0 0 1 .032-.063h.005l1.26-1.26l1.631 1.631zm3.233-1.677a.313.313 0 0 0-.156.344l.271 1.152c.043.167-.161.28-.281.156H9.75l-1.635-1.636l5.016-5.011l2.427-.525l1.161 1.167c-1.672 1.468-3.959 2.932-6.797 4.353zm7.038-4.567l-1.12-1.12l6.265-5.5c.057-.052.109-.109.156-.167c-.192 1.792-2.703 4.323-5.301 6.787zm4.88-8.615h-.005c-2.183-2.193.901-5.563 3.276-3.584l-2.145 2.152a.161.161 0 0 0 0 .228l1.661 1.663a2.418 2.418 0 0 1-2.787-.459zm3.432 0a2.136 2.136 0 0 1-.359.291l-1.609-1.609l2.041-2.047a2.428 2.428 0 0 1-.073 3.365zm-.131-2.057a.19.19 0 0 0-.072.208a.548.548 0 0 1-.068.599a.185.185 0 0 0 .031.265a.198.198 0 0 0 .109.037c.057 0 .111-.021.141-.063a.931.931 0 0 0 .12-1.005a.185.185 0 0 0-.261-.041z' />
               </svg>
             </figure>
             <div className='label'>Postman</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('devicon-trello-plain smaller') ? 'skill-highlight' : ''}`}>
             <i className='devicon-trello-plain smaller'></i>
             <div className='label'>Trello</div>
           </div>
-          <div className='column is-4-mobile is-3-tablet is-2-desktop'>
+          <div className={'column ' + `${stack.includes('excel') ? 'skill-highlight' : ''}`}>
             <figure className='image is-square is-paddingless'>
               <svg
                 viewBox='0 0 24 24'

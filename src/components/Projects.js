@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
+import Skills from './Skills'
+
 import tetris1 from '../images/tetris1.png'
 import tetris2 from '../images/tetris2.png'
 import tetris3 from '../images/tetris3.png'
@@ -29,7 +31,8 @@ const projects = [
       'devicon-react-original',
       'devicon-python-plain',
       'devicon-django-plain',
-      'devicon-postgresql-plain'
+      'devicon-postgresql-plain',
+      'yarn'
     ],
     description:
       'It is a food tracker app. It was a pair project built in 6 days using Django and React. Users can create an account and log food they eat. The data is displayed in their account in the form of a weekly chart and daily records. Logs can be edited and back dated. It was another good opportunity to practice collaborative work. We pair-programmed the back end. After that, I created wireframes for the front end and built: router, secure route, create, edit, log history and navbar. I also made my account page excluding the chart.'
@@ -45,7 +48,6 @@ const projects = [
       'devicon-webpack-plain',
       'devicon-mongodb-plain',
       'devicon-express-original'
-
     ],
     description:
       'A website to find someone to go on holiday with. It was a group project (3 people) built in 6 days using MERN stack. To maximise learning, I suggested rotating, so that each of us worked on models, controllers and front end. We spent a day planning our work and recording tasks on Trello and then went executing. I have personally built: user model, user controller, authentication, homepage component with search and filtering, my account page, set up auto-testing.'
@@ -118,8 +120,14 @@ const Projects = () => {
   useEffect(() => console.log(currentProject), [currentProject])
 
   return (
-    <section className='section hero is-fullheight' id='projects'>
-      <div className='is-size-2'>Projects</div>
+    <section className='' id='projects'>
+      <div className='is-size-2 has-text-centered is-underlined'>Projects:</div>
+      <h2 className='is-size-3 has-text-centered'>
+        {currentProject.projectName}
+      </h2>
+      <p className='is-size-6 has-text-centered description'>
+        {currentProject.description}
+      </p>
       <div className='slide-control'>
         <nav
           className='level is-centered is-mobile'
@@ -128,7 +136,7 @@ const Projects = () => {
         >
           <button
             className={
-              'project-number is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-6 ' +
               `${project === 1 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -139,7 +147,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-6 ' +
               `${project === 2 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -150,7 +158,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-6 ' +
               `${project === 3 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -161,7 +169,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-6 ' +
               `${project === 4 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -172,7 +180,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-6 ' +
               `${project === 5 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -183,7 +191,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-6 ' +
               `${project === 6 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -194,7 +202,7 @@ const Projects = () => {
           </button>
           <button
             className={
-              'project-number is-centered is-size-5 is-family-secondary ' +
+              'project-number is-centered is-size-6 ' +
               `${project === 7 ? 'current' : ''}`
             }
             onClick={handleProject}
@@ -205,48 +213,12 @@ const Projects = () => {
           </button>
         </nav>
       </div>
-      <div className='projects'>
-        <h2 className='has-text-centered is-size-3'>
-          {currentProject.projectName}
-        </h2>
-        <div className='tile is-ancestor'>
-          <div className='tile is-parent'>
-            <article className='tile is-child notification card'>
-              <div className='content'>
-                <p>{currentProject.description}</p>
-              </div>
-            </article>
-          </div>
-          <div className='tile is-vertical is-8'>
-            <div className='tile is-parent'>
-              <div className='tile is-child card'>
-                <div className='content'>
-                  {currentProject.stack.map((icon, index) => (
-                    <i key={index} className={icon}></i>
-                  ))}
-                </div>
-              </div>
-            </div>
-            <div className='tile'>
-              <div className='tile is-parent is-vertical'>
-                <article className='tile is-child notification card'>
-                  <img alt='project' src={currentProject.images[0]}></img>
-                </article>
-                <div className='tile is-child notification card'>
-                  <img alt='project' src={currentProject.images[1]}></img>
-                </div>
-              </div>
-              <div className='tile is-parent'>
-                <article className='tile is-child notification card'>
-                  <figure className='image is-9by16'>
-                    <img alt='project' src={currentProject.images[2]}></img>
-                  </figure>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className='columns'>
+        <div className='column'><img src={currentProject.images[0]} alt="project"/></div>
+        <div className='column'><img src={currentProject.images[1]} alt="project"/></div>
+        <div className='column'><img src={currentProject.images[2]} alt="project"/></div>
       </div>
+      <Skills stack={currentProject.stack}/>
     </section>
   )
 }

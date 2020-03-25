@@ -3,11 +3,11 @@ import Contact from './Contact'
 
 const Intro = () => {
   return (
-    <section className='hero is-fullheight' id='intro'>
-      <div className=''>
+    <section className='hero hero-body is-fullheight' id='intro'>
         <div className='container has-text-centered'>
-          <h1 className='is-size-1-tablet'>Nikita Lukjanov</h1>
-          <h2 className='is-size-2-tablet'>Software Developer</h2>
+          <h1 className='is-size-1-tablet'><span className="invert">Nikita Lukjanov</span></h1>
+          <h2 className='is-size-2-tablet'><span className="invert">Software Developer</span></h2>
+          <h2 className='is-size-2-tablet'><span className="symbol"> </span></h2>
           <p className='is-size-4-tablet'>
             I am a full-stack software engineer skilled in JavaScript and
             Python. I build functional, tested software and I am always up for a
@@ -23,7 +23,6 @@ const Intro = () => {
           </p>
           <Contact />
         </div>
-      </div>
     </section>
   )
 }
