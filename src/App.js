@@ -3,14 +3,14 @@ import './App.scss'
 
 import Intro from './components/Intro'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
-      <section className='container'>
-        <Intro />
-      </section>
+      <Intro />
       <Projects />
+      <Footer />
     </>
   )
 }

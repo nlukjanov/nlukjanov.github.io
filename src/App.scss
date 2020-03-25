@@ -12,7 +12,6 @@ $main-color: rgb(33, 91, 245);
 
 $primary: $main-color;
 
-
 @import "../node_modules/bulma";
 body {
   font-family: 'fourmasters-vandenkeere', sans-serif;
@@ -20,7 +19,17 @@ body {
 }
 
 
-// Font sizes
+// Intro
+
+.invert {
+  background-color: $main-color;
+  color: white;
+}
+
+.symbol {
+  white-space: pre;
+  background-color: $main-color;
+}
 
 @media only screen and (max-width: 768px) {
   .intro-text {
@@ -46,9 +55,45 @@ body {
   }
 }
 
+
+// Contact
+
 .contact {
   margin: 1rem;
 }
+
+a {
+  figure {
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+a {
+  i {
+    font-size: 1.5rem;
+  }
+}
+
+.contact-link {
+  padding-left: 10px;
+}
+
+
+.columns.is-mobile {
+  .column {
+    margin: 0.5rem 1rem;
+  }
+}
+
+.is-underlined {
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+// Skills/Tools
 
 .column > i {
   color: $dark-grey;
@@ -79,38 +124,6 @@ svg {
   }
 }
 
-a {
-  figure {
-    svg {
-      width: 1.5rem;
-      height: 1.5rem;
-    }
-  }
-}
-
-a {
-  i {
-    font-size: 1.5rem;
-  }
-}
-
-.contact-link {
-  padding-left: 10px;
-}
-
-.is-underlined {
-  text-decoration: underline;
-}
-
-.invert {
-  background-color: $main-color;
-  color: white;
-}
-
-.symbol {
-  white-space: pre;
-  background-color: $main-color;
-}
 
 .skill-highlight {
 

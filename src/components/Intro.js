@@ -3,7 +3,7 @@ import Contact from './Contact'
 
 const Intro = () => {
   return (
-    <section className='hero hero-body is-fullheight' id='intro'>
+    <section className='hero hero-body is-fullheight container' id='intro'>
       <div className='container has-text-centered'>
         <h1 className='intro-text'>
           <span className='invert'>Nikita Lukjanov</span>

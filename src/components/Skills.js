@@ -3,7 +3,7 @@ import React from 'react'
 const Skills = ({ stack }) => {
   console.log(stack)
   return (
-    <section className='section' id='skills'>
+    <section className='container' id='skills'>
       <div className=''>
         <div className='is-size-2 has-text-centered is-underlined'>Tools:</div>
         <div className='columns is-mobile is-multiline'>

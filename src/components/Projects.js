@@ -146,15 +146,19 @@ const Projects = () => {
       <h2 className='is-size-3 has-text-centered'>
         {currentProject.projectName}
       </h2>
-      <p className='is-size-6 has-text-centered description'>
-        {currentProject.description}
-      </p>
-      <div className="columns">
-        <div className="column">
-          {currentProject.deployed}
+      <div className='columns'>
+        <div className='column'>
+          <img src={currentProject.images[0]} alt='project' />
+          <div className='column'>{currentProject.deployed}</div>
         </div>
-        <div className="column">
-          {currentProject.repo}
+        <div className='column'>
+          <p className='is-size-6 has-text-centered description'>
+            {currentProject.description}
+          </p>
+        </div>
+        <div className='column'>
+          <img src={currentProject.images[2]} alt='project' />
+          <div className='column'>{currentProject.repo}</div>
         </div>
       </div>
       <div className='slide-control'>
@@ -241,17 +245,6 @@ const Projects = () => {
             7
           </button>
         </nav>
-      </div>
-      <div className='columns'>
-        <div className='column'>
-          <img src={currentProject.images[0]} alt='project' />
-        </div>
-        <div className='column'>
-          <img src={currentProject.images[1]} alt='project' />
-        </div>
-        <div className='column'>
-          <img src={currentProject.images[2]} alt='project' />
-        </div>
       </div>
       <Skills stack={currentProject.stack} />
     </section>
