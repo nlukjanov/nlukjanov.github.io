@@ -20,6 +20,14 @@ body {
 
 }
 
+@media only screen and (min-width: 769px) {
+  .intro-text {
+    font-size: 1.8rem;
+  }
+}
+
+
+
 .column > i {
   color: $dark-grey;
   font-size: 2rem;
@@ -64,7 +72,7 @@ a {
   }
 }
 
-.text {
+.contact-link {
   padding-left: 10px;
 }
 
@@ -83,16 +91,17 @@ a {
 }
 
 .skill-highlight {
-  background-color: $main-color;
+
   .label {
-    color: white;
+    color: $main-color;
   }
   i {
-    color: white;
+    text-align: center;
+    color: $main-color;
   }
   figure {
     svg {
-      fill: white;
+      fill: $main-color;
     }
   }
 }
@@ -127,7 +136,7 @@ a {
   }
 
   .project-number {
-    transition: color 0.5s ease-in-out;
+    transition: color 0.3s ease-in-out;
   }
 
   .project-number:hover {
@@ -137,10 +146,6 @@ a {
   .current {
     color: white;
     font-weight: 700;
-
-    -moz-border-radius: 30px; /* or 50% */
-    border-radius: 30px; /* or 50% */
-
     background-color: $main-color;
     color: white;
     text-align: center;
