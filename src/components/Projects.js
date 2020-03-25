@@ -28,10 +28,15 @@ const projects = [
     repo: 'http://bit.ly/nl-sei4-repo',
     images: [dietlogue1, dietlogue2, dietlogue3],
     stack: [
+      'postman',
+      'devicon-git-plain',
+      'devicon-heroku-original',
+      'devicon-visualstudio-plain',
       'devicon-react-original',
       'devicon-python-plain',
       'devicon-django-plain',
       'devicon-postgresql-plain',
+      'devicon-sass-original',
       'yarn'
     ],
     description:
@@ -43,11 +48,18 @@ const projects = [
     repo: 'http://bit.ly/nl-sei3-repo',
     images: [travelr1, travelr2, travelr3],
     stack: [
+      'devicon-git-plain',
+      'npm',
+      'devicon-heroku-original',
+      'devicon-visualstudio-plain',
       'devicon-react-original',
       'devicon-nodejs-plain',
       'devicon-webpack-plain',
       'devicon-mongodb-plain',
-      'devicon-express-original'
+      'devicon-express-original',
+      'devicon-mocha-plain',
+      'postman',
+      'devicon-trello-plain smaller'
     ],
     description:
       'A website to find someone to go on holiday with. It was a group project (3 people) built in 6 days using MERN stack. To maximise learning, I suggested rotating, so that each of us worked on models, controllers and front end. We spent a day planning our work and recording tasks on Trello and then went executing. I have personally built: user model, user controller, authentication, homepage component with search and filtering, my account page, set up auto-testing.'
@@ -58,10 +70,16 @@ const projects = [
     repo: 'http://bit.ly/nl-sei2-repo',
     images: [artjourney1, artjourney2, artjourney3],
     stack: [
+      'devicon-git-plain',
+      'npm',
+      'devicon-heroku-original',
+      'devicon-visualstudio-plain',
       'devicon-react-original',
       'devicon-webpack-plain',
       'devicon-html5-plain',
-      'devicon-css3-plain'
+      'devicon-css3-plain',
+      'devicon-sass-original',
+      'postman'
     ],
     description:
       'Pair programming project built using React in 2 days. My partner and I used RijksMuseum API to build a website for searching art pieces that are present in the collection. Great experience in building functional and stateful React components, handling multiple sequential API requests and using ternary operators for conditional displaying of elements.'
@@ -72,6 +90,9 @@ const projects = [
     repo: 'http://bit.ly/nl-sei1-repo',
     images: [tetris1, tetris2, tetris3],
     stack: [
+      'devicon-git-plain',
+      'devicon-heroku-original',
+      'devicon-visualstudio-plain',
       'devicon-javascript-plain',
       'devicon-html5-plain',
       'devicon-css3-plain'

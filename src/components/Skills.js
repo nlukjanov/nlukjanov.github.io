@@ -1,65 +1,162 @@
 import React from 'react'
 
-const Skills = ({stack}) => {
+const Skills = ({ stack }) => {
   console.log(stack)
   return (
     <section className='section' id='skills'>
       <div className=''>
         <div className='is-size-2 has-text-centered is-underlined'>Tools:</div>
         <div className='columns is-mobile is-multiline'>
-          <div className={'column ' + `${stack.includes('devicon-javascript-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-javascript-plain')
+                  ? 'skill-highlight'
+                  : ''
+              }`
+            }
+          >
             <i className='devicon-javascript-plain'></i>
             <div className='label'>JavaScript</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-react-original') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-react-original')
+                  ? 'skill-highlight'
+                  : ''
+              }`
+            }
+          >
             <i className='devicon-react-original'></i>
             <div className='label'>React.js</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-nodejs-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-nodejs-plain') ? 'skill-highlight' : ''
+              }`
+            }
+          >
             <i className='devicon-nodejs-plain'></i>
             <div className='label'>Node.js</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-express-original') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-express-original')
+                  ? 'skill-highlight'
+                  : ''
+              }`
+            }
+          >
             <i className='devicon-express-original'></i>
             <div className='label'>Express.js</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-mongodb-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-mongodb-plain') ? 'skill-highlight' : ''
+              }`
+            }
+          >
             <i className='devicon-mongodb-plain'></i>
             <div className='label'>MongoDB</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-python-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-python-plain') ? 'skill-highlight' : ''
+              }`
+            }
+          >
             <i className='devicon-python-plain'></i>
             <div className='label'>Python</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-django-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-django-plain') ? 'skill-highlight' : ''
+              }`
+            }
+          >
             <i className='devicon-django-plain'></i>
             <div className='label'>Django</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-webpack-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-webpack-plain') ? 'skill-highlight' : ''
+              }`
+            }
+          >
             <i className='devicon-webpack-plain'></i>
             <div className='label'>Webpack</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-html5-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-html5-plain') ? 'skill-highlight' : ''
+              }`
+            }
+          >
             <i className='devicon-html5-plain'></i>
             <div className='label'>HTML</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-css3-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${stack.includes('devicon-css3-plain') ? 'skill-highlight' : ''}`
+            }
+          >
             <i className='devicon-css3-plain'></i>
             <div className='label'>CSS</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-sass-original') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-sass-original') ? 'skill-highlight' : ''
+              }`
+            }
+          >
             <i className='devicon-sass-original'></i>
             <div className='label'>SASS</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-ruby-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${stack.includes('devicon-ruby-plain') ? 'skill-highlight' : ''}`
+            }
+          >
             <i className='devicon-ruby-plain'></i>
             <div className='label'>Ruby</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-rails-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-rails-plain') ? 'skill-highlight' : ''
+              }`
+            }
+          >
             <i className='devicon-rails-plain'></i>
             <div className='label'>Rails</div>
           </div>
-          <div className={'column ' + `${stack.includes('npm') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' + `${stack.includes('npm') ? 'skill-highlight' : ''}`
+            }
+          >
             <figure className='image is-square is-paddingless'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -71,7 +168,11 @@ const Skills = ({stack}) => {
             </figure>
             <div className='label'>NPM</div>
           </div>
-          <div className={'column ' + `${stack.includes('yarn') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' + `${stack.includes('yarn') ? 'skill-highlight' : ''}`
+            }
+          >
             <figure className='image is-square is-paddingless'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -83,31 +184,71 @@ const Skills = ({stack}) => {
             </figure>
             <div className='label'>Yarn</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-postgresql-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-postgresql-plain')
+                  ? 'skill-highlight'
+                  : ''
+              }`
+            }
+          >
             <i className='devicon-postgresql-plain'></i>
             <div className='label'>PostgreSQL</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-mocha-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-mocha-plain') ? 'skill-highlight' : ''
+              }`
+            }
+          >
             <i className='devicon-mocha-plain'></i>
             <div className='label'>Mocha.js</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-git-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${stack.includes('devicon-git-plain') ? 'skill-highlight' : ''}`
+            }
+          >
             <i className='devicon-git-plain'></i>
             <div className='label'>Git</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-github-plain') ? 'skill-highlight' : ''}`}>
-            <i className='devicon-github-plain'></i>
-            <div className='label'>GitHub</div>
-          </div>
-          <div className={'column ' + `${stack.includes('devicon-heroku-original') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-heroku-original')
+                  ? 'skill-highlight'
+                  : ''
+              }`
+            }
+          >
             <i className='devicon-heroku-original'></i>
             <div className='label'>Heroku</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-visualstudio-plain') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-visualstudio-plain')
+                  ? 'skill-highlight'
+                  : ''
+              }`
+            }
+          >
             <i className='devicon-visualstudio-plain'></i>
             <div className='label'>VSCode</div>
           </div>
-          <div className={'column ' + `${stack.includes('postman') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${stack.includes('postman') ? 'skill-highlight' : ''}`
+            }
+          >
             <figure className='image is-square is-paddingless'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -121,11 +262,37 @@ const Skills = ({stack}) => {
             </figure>
             <div className='label'>Postman</div>
           </div>
-          <div className={'column ' + `${stack.includes('devicon-trello-plain smaller') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-wordpress-plain')
+                  ? 'skill-highlight'
+                  : ''
+              }`
+            }
+          >
+            <i className='devicon-wordpress-plain'></i>
+            <div className='label'>WordPress</div>
+          </div>
+          <div
+            className={
+              'column ' +
+              `${
+                stack.includes('devicon-trello-plain smaller')
+                  ? 'skill-highlight'
+                  : ''
+              }`
+            }
+          >
             <i className='devicon-trello-plain smaller'></i>
             <div className='label'>Trello</div>
           </div>
-          <div className={'column ' + `${stack.includes('excel') ? 'skill-highlight' : ''}`}>
+          <div
+            className={
+              'column ' + `${stack.includes('excel') ? 'skill-highlight' : ''}`
+            }
+          >
             <figure className='image is-square is-paddingless'>
               <svg
                 viewBox='0 0 24 24'
