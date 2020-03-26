@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import ModalImage from 'react-modal-image'
 
 import Skills from './Skills'
@@ -157,7 +157,6 @@ const Projects = () => {
     setProject(parseInt(e.target.id))
     setCurrentProject(projects[parseInt(e.target.id) - 1])
   }
-  useEffect(() => console.log(currentProject), [currentProject])
 
   return (
     <section className='project-block' id='projects'>

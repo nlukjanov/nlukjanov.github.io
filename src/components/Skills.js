@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Skills = ({ stack }) => {
-  console.log(stack)
   return (
     <section className='container' id='skills'>
       <div className=''>
