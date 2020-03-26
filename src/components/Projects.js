@@ -151,7 +151,7 @@ const Projects = () => {
           <img src={currentProject.images[0]} alt='project' />
         </div>
         <div className='column'>
-          <p className='is-size-6 has-text-centered description'>
+          <p className='has-text-centered description'>
             {currentProject.description}
           </p>
           <div className='deployment-links'>
