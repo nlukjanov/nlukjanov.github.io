@@ -141,7 +141,7 @@ const Projects = () => {
   useEffect(() => console.log(currentProject), [currentProject])
 
   return (
-    <section className='' id='projects'>
+    <section className='project-block' id='projects'>
       <div className='is-size-2 has-text-centered is-underlined'>Projects:</div>
       <h2 className='is-size-3 has-text-centered'>
         {currentProject.projectName}

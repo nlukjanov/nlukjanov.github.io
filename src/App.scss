@@ -221,6 +221,14 @@ svg {
 
 // Projects
 
+@media only screen and (max-width: 600px) {
+  .project-block {
+    padding: 3rem 1.5rem;
+  }
+}
+
+
+
 .description {
   margin: 0 auto;
   max-width: 480px;
