@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'fourmasters-vandenkeere';
-  src: url('./fourmasters-vandenkeere.otf') format('opentype');
+  src: url('./FourMasters-VandenKeere.woff2') format('woff2');
 }
 
 $highlight: rgb(0, 249, 0);
@@ -99,11 +99,11 @@ body {
 
 // Contact
 
-
 .button {
   border-radius: 16px;
   padding: calc(0.5em - 1px) 2em;
-  background-image: linear-gradient( 180deg, white 60%, $main-color), linear-gradient(90deg, white 60%, $main-color);
+  background-image: linear-gradient(180deg, white 60%, $main-color),
+    linear-gradient(90deg, white 60%, $main-color);
 }
 
 .contact {
@@ -287,7 +287,6 @@ svg {
     }
   }
 }
-
 
 // Footer
 
