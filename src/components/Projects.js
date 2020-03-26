@@ -40,7 +40,7 @@ const projects = [
       'yarn'
     ],
     description:
-      'It is a food tracker app. It was a pair project built in 6 days using Django and React. Users can create an account and log food they eat. The data is displayed in their account in the form of a weekly chart and daily records. Logs can be edited and back dated. It was another good opportunity to practice collaborative work. We pair-programmed the back end. After that, I created wireframes for the front end and built: router, secure route, create, edit, log history and navbar. I also made my account page excluding the chart.'
+      'It is a food tracker app. It was a pair project built in 6 days using Django and React. Users can create an account and log food they eat. The data is displayed in their account in the form of a weekly chart and daily records. Logs can be edited and back dated. We pair-programmed the back end. I have personally built built: router, secure route, create, edit, log history and navbar. I also made my account page excluding the chart.'
   },
   {
     projectName: 'Travelr',
@@ -62,7 +62,7 @@ const projects = [
       'devicon-trello-plain smaller'
     ],
     description:
-      'A website to find someone to go on holiday with. It was a group project (3 people) built in 6 days using MERN stack. To maximise learning, I suggested rotating, so that each of us worked on models, controllers and front end. We spent a day planning our work and recording tasks on Trello. After that I have built wireframes using Balsamiq software and we started coding. I have personally built: user model, user controller, authentication, homepage component with search and filtering, my account page, set up auto-testing.'
+      'A website to find someone to go on holiday with. It was a group project (3 people) built in 6 days using MERN stack. To maximise learning, I suggested rotating, so that each of us worked on models, controllers and front end. We spent a day planning our work and then went executing. I have personally built: user model, user controller, authentication, homepage component with search and filtering, my account page, set up auto-testing.'
   },
   {
     projectName: 'Art Journey',
@@ -82,7 +82,7 @@ const projects = [
       'postman'
     ],
     description:
-      'Pair programming project built using React in 2 days. My partner and I used RijksMuseum API to build a website for searching art pieces that are present in the collection. Great experience in building functional and stateful React components, handling multiple sequential API requests and using ternary operators for conditional displaying of elements. Availability of hi-res images allowed us to implement few third-party components: loading screen that is shown until images are loaded and magnifying glass.'
+      'Pair programming project built using React in 2 days. My partner and I used RijksMuseum API to build a website for searching art pieces that are present in the collection. Great experience in building functional and stateful React components, handling multiple sequential API requests and using ternary operators for conditional displaying of elements.'
   },
   {
     projectName: 'Tetris',
@@ -98,7 +98,7 @@ const projects = [
       'devicon-css3-plain'
     ],
     description:
-      'First solo project after introduction to HTML, CSS and JS. Build in 6 days using vanilla JS. I had to break down the process to smaller scopes, such as creating a game board and tetrominoes, add manipulation, boundaries and scores. Game board is an array of cells displayed as grid. Boundaries and rotations were the trickiest parts to implement. I have added sounds and music. Music speed increases with game level. Also I have added a persistent leader board using local storage. Deployed to heroku using one line PHP server.'
+      'First solo project after introduction to HTML, CSS and JS. Build in 6 days using vanilla JS. I had to break down the process to smaller scopes, such as creating a game board and tetrominoes, add manipulation, boundaries and scores. I added sounds and persistent leaderboard using local storage.'
   },
   {
     projectName: 'Bali Skin',
@@ -125,7 +125,7 @@ const projects = [
     images: [],
     stack: ['devicon-react-original'],
     description:
-      'There are many sources that describe benefits of journaling. I am journaling almost every day. Currently I am working on the project where I the main page will have a calendar format with your journal entries displayed per day. It will be visually very descriptive when did you journal. Also color labeling will allow to see the categories of your entries.'
+      'There are many sources that describe benefits of journaling. I am journaling almost every day. Currently I am working on the project where I the main page will have a calendar format with your journal entries displayed per day. It will be visually very descriptive when did you journal. Color labeling will allow for explicit visual representation of categories.'
   }
 ]
 

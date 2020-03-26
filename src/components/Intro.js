@@ -12,7 +12,7 @@ const Intro = () => {
           <span className='invert'>software developer</span>
         </h2>
         <h2 className='intro-text'>
-          <span className='symbol'> </span>
+          <span className='symbol blinking'> </span>
         </h2>
         <p className='intro-text'>
           I am a full-stack software engineer skilled in JavaScript and Python.
@@ -26,7 +26,9 @@ const Intro = () => {
           am looking for a full-stack position where I can solve problems,
           contribute, learn and further grow as an engineer.
         </p>
-        <Contact />
+        <section className='contact' id='contact'>
+          <Contact />
+        </section>
       </div>
     </section>
   )

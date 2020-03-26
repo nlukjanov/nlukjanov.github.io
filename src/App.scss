@@ -31,44 +31,76 @@ body {
   background-color: $main-color;
 }
 
+.blinking {
+  animation: blinkingText 1s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    background-color: $main-color;
+  }
+  49% {
+    background-color: $main-color;
+  }
+  60% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: $main-color;
+  }
+}
+
+.intro-text {
+  margin: -0.2rem;
+}
+
 @media only screen and (min-width: 360px) {
   .intro-text {
+    margin: -0.2rem;
     font-size: 1.2rem;
   }
 }
 
 @media only screen and (min-width: 371px) {
   .intro-text {
+    margin: -0.2rem;
     font-size: 1.2rem;
   }
 }
 
 @media only screen and (min-width: 432px) {
   .intro-text {
+    margin: -0.2rem;
     font-size: 1.3rem;
   }
 }
 
 @media only screen and (min-width: 528px) {
   .intro-text {
+    margin: -0.2rem;
     font-size: 1.4rem;
   }
 }
 
 @media only screen and (min-width: 597px) {
   .intro-text {
+    margin: -0.3rem;
     font-size: 1.5rem;
   }
 }
 
 @media only screen and (min-width: 674px) {
   .intro-text {
+    margin: -0.3rem;
     font-size: 1.6rem;
   }
 }
 
 @media only screen and (min-width: 769px) {
   .intro-text {
+    margin: -0.3rem;
     font-size: 1.7rem;
   }
 }
@@ -219,8 +251,8 @@ svg {
     transition: color 0.3s ease-in-out;
   }
 
-  .project-number:hover {
-    color: $main-color;
+  .project-number:not(.current):hover {
+    color: $dark-grey;
   }
 
   .current {
@@ -274,6 +306,13 @@ svg {
 
 // Contact
 
+.contact-links {
+  a {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
 .level-item {
   color: $main-color;
   svg {
@@ -293,4 +332,12 @@ svg {
 .footer {
   background-color: $main-color;
   padding: 2rem 0rem;
+  color: white;
+
+  a {
+    color: white;
+  }
+  svg {
+    fill: white;
+  }
 }
