@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70b309fcd19dff88cc1a6b83c25bbebc",
+    "revision": "064d4ce5c47a9e5453e8091df9d87ef1",
     "url": "/index.html"
   },
   {
-    "revision": "a6a8f98244205d979771",
-    "url": "/static/css/main.46eb5b97.chunk.css"
+    "revision": "1fb022419075b3400b20",
+    "url": "/static/css/main.48dc126f.chunk.css"
   },
   {
-    "revision": "905b137a10ac237e911d",
-    "url": "/static/js/2.d4162870.chunk.js"
+    "revision": "ef99ddca019e77d13969",
+    "url": "/static/js/2.0dbeb174.chunk.js"
   },
   {
     "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/static/js/2.d4162870.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0dbeb174.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6a8f98244205d979771",
-    "url": "/static/js/main.4274e8b4.chunk.js"
+    "revision": "1fb022419075b3400b20",
+    "url": "/static/js/main.5b295f10.chunk.js"
   },
   {
     "revision": "2ab5528f29807ec3af41",
     "url": "/static/js/runtime-main.8b054bcd.js"
+  },
+  {
+    "revision": "de2202671163460143532a99cfbc351c",
+    "url": "/static/media/FourMasters-VandenKeere.de220267.woff2"
   },
   {
     "revision": "89357ef5c8830f97b8af9310daca97bc",
@@ -52,16 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dietlogue1.4f8c42db.png"
   },
   {
-    "revision": "6175128ba33b5140ee29144b811ab41b",
-    "url": "/static/media/dietlogue2.6175128b.png"
-  },
-  {
     "revision": "3af79a2b6890cd449d3a4677d8925b45",
-    "url": "/static/media/dietlogue3.3af79a2b.png"
+    "url": "/static/media/dietlogue2.3af79a2b.png"
   },
   {
-    "revision": "dcd0269e7e1920640b14e08d768eb412",
-    "url": "/static/media/fourmasters-vandenkeere.dcd0269e.otf"
+    "revision": "6175128ba33b5140ee29144b811ab41b",
+    "url": "/static/media/dietlogue3.6175128b.png"
   },
   {
     "revision": "688cdf059a68dec4bc57c42e254dbdaa",

@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.46eb5b97.chunk.css",
-    "main.js": "/static/js/main.4274e8b4.chunk.js",
-    "main.js.map": "/static/js/main.4274e8b4.chunk.js.map",
+    "main.css": "/static/css/main.48dc126f.chunk.css",
+    "main.js": "/static/js/main.5b295f10.chunk.js",
+    "main.js.map": "/static/js/main.5b295f10.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8b054bcd.js",
     "runtime-main.js.map": "/static/js/runtime-main.8b054bcd.js.map",
-    "static/js/2.d4162870.chunk.js": "/static/js/2.d4162870.chunk.js",
-    "static/js/2.d4162870.chunk.js.map": "/static/js/2.d4162870.chunk.js.map",
+    "static/js/2.0dbeb174.chunk.js": "/static/js/2.0dbeb174.chunk.js",
+    "static/js/2.0dbeb174.chunk.js.map": "/static/js/2.0dbeb174.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ac32b4517a8dd47200ac9fccf253b32c.js": "/precache-manifest.ac32b4517a8dd47200ac9fccf253b32c.js",
+    "precache-manifest.cd375d5910a5575915a66466a1d6ae00.js": "/precache-manifest.cd375d5910a5575915a66466a1d6ae00.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.46eb5b97.chunk.css.map": "/static/css/main.46eb5b97.chunk.css.map",
-    "static/js/2.d4162870.chunk.js.LICENSE.txt": "/static/js/2.d4162870.chunk.js.LICENSE.txt",
+    "static/css/main.48dc126f.chunk.css.map": "/static/css/main.48dc126f.chunk.css.map",
+    "static/js/2.0dbeb174.chunk.js.LICENSE.txt": "/static/js/2.0dbeb174.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/FourMasters-VandenKeere.de220267.woff2",
     "static/media/artjourney1.png": "/static/media/artjourney1.89357ef5.png",
     "static/media/artjourney2.png": "/static/media/artjourney2.28cd9181.png",
     "static/media/artjourney3.png": "/static/media/artjourney3.b8893f10.png",
@@ -19,9 +20,8 @@
     "static/media/baliskin2.png": "/static/media/baliskin2.723988ac.png",
     "static/media/baliskin3.png": "/static/media/baliskin3.f1412933.png",
     "static/media/dietlogue1.png": "/static/media/dietlogue1.4f8c42db.png",
-    "static/media/dietlogue2.png": "/static/media/dietlogue2.6175128b.png",
-    "static/media/dietlogue3.png": "/static/media/dietlogue3.3af79a2b.png",
-    "static/media/App.scss": "/static/media/fourmasters-vandenkeere.dcd0269e.otf",
+    "static/media/dietlogue2.png": "/static/media/dietlogue2.3af79a2b.png",
+    "static/media/dietlogue3.png": "/static/media/dietlogue3.6175128b.png",
     "static/media/rs1.png": "/static/media/rs1.688cdf05.png",
     "static/media/rs2.png": "/static/media/rs2.5aad7eea.png",
     "static/media/rs3.png": "/static/media/rs3.be9b5b6e.png",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8b054bcd.js",
-    "static/js/2.d4162870.chunk.js",
-    "static/css/main.46eb5b97.chunk.css",
-    "static/js/main.4274e8b4.chunk.js"
+    "static/js/2.0dbeb174.chunk.js",
+    "static/css/main.48dc126f.chunk.css",
+    "static/js/main.5b295f10.chunk.js"
   ]
 }
