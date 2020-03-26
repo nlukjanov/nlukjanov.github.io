@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import ModalImage from 'react-modal-image'
 
 import Skills from './Skills'
 
@@ -21,12 +22,32 @@ import rs1 from '../images/rs1.png'
 import rs2 from '../images/rs2.png'
 import rs3 from '../images/rs3.png'
 
+import tetris1small from '../images/small/tetris1.png'
+import tetris2small from '../images/small/tetris2.png'
+import tetris3small from '../images/small/tetris3.png'
+import artjourney1small from '../images/small/artjourney1.png'
+import artjourney2small from '../images/small/artjourney2.png'
+import artjourney3small from '../images/small/artjourney3.png'
+import travelr1small from '../images/small/travelr1.png'
+import travelr2small from '../images/small/travelr2.png'
+import travelr3small from '../images/small/travelr3.png'
+import dietlogue1small from '../images/small/dietlogue1.png'
+import dietlogue2small from '../images/small/dietlogue2.png'
+import dietlogue3small from '../images/small/dietlogue3.png'
+import baliskin1small from '../images/small/baliskin1.png'
+import baliskin2small from '../images/small/baliskin2.png'
+import baliskin3small from '../images/small/baliskin3.png'
+import rs1small from '../images/small/rs1.png'
+import rs2small from '../images/small/rs2.png'
+import rs3small from '../images/small/rs3.png'
+
 const projects = [
   {
     projectName: 'Dietlogue',
     deployed: 'http://bit.ly/nl-sei4-live',
     repo: 'http://bit.ly/nl-sei4-repo',
     images: [dietlogue1, dietlogue2, dietlogue3],
+    smallImages: [dietlogue1small, dietlogue2small, dietlogue3small],
     stack: [
       'postman',
       'devicon-git-plain',
@@ -47,6 +68,7 @@ const projects = [
     deployed: 'http://bit.ly/nl-sei3-live',
     repo: 'http://bit.ly/nl-sei3-repo',
     images: [travelr1, travelr2, travelr3],
+    smallImages: [travelr1small, travelr2small, travelr3small],
     stack: [
       'devicon-git-plain',
       'npm',
@@ -69,6 +91,7 @@ const projects = [
     deployed: 'http://bit.ly/nl-sei2-live',
     repo: 'http://bit.ly/nl-sei2-repo',
     images: [artjourney1, artjourney2, artjourney3],
+    smallImages: [artjourney1small, artjourney2small, artjourney3small],
     stack: [
       'devicon-git-plain',
       'npm',
@@ -89,6 +112,7 @@ const projects = [
     deployed: 'http://bit.ly/nl-sei1-heroku',
     repo: 'http://bit.ly/nl-sei1-repo',
     images: [tetris1, tetris2, tetris3],
+    smallImages: [tetris1small, tetris2small, tetris3small],
     stack: [
       'devicon-git-plain',
       'devicon-heroku-original',
@@ -105,6 +129,7 @@ const projects = [
     deployed: 'http://baliskin.com/',
     repo: '',
     images: [baliskin1, baliskin2, baliskin3],
+    smallImages: [baliskin1small, baliskin2small, baliskin3small],
     stack: ['devicon-wordpress-plain', 'devicon-css3-plain'],
     description:
       'This is an e-commerce website that I have built while travelling. I have used WordPress themes and templates and bit of custom CSS. WordPress has a straight forward content management system which was suitable for this project.'
@@ -114,6 +139,7 @@ const projects = [
     deployed: 'https://russianschool.org.uk/',
     repo: '',
     images: [rs1, rs2, rs3],
+    smallImages: [rs1small, rs2small, rs3small],
     stack: ['devicon-wordpress-plain', 'devicon-css3-plain'],
     description:
       'This is a website for Russian School in London that I was volunteering for. I have used WordPress themes and templates and a bit of custom CSS. I needed easy CMS any person could pick up in case I am not able to maintain the website anymore.WordPress seemed good fit for this purpose.'
@@ -148,7 +174,13 @@ const Projects = () => {
       </h2>
       <div className='columns'>
         <div className='column'>
-          <img src={currentProject.images[0]} alt='project' />
+          <ModalImage
+            small={currentProject.smallImages[0]}
+            large={currentProject.images[0]}
+            hideDownload={true}
+            hideZoom={true}
+            alt={currentProject.projectName}
+          />
         </div>
         <div className='column'>
           <p className='has-text-centered description'>
@@ -166,7 +198,13 @@ const Projects = () => {
           </div>
         </div>
         <div className='column'>
-          <img src={currentProject.images[2]} alt='project' />
+          <ModalImage
+            hideDownload={true}
+            hideZoom={true}
+            small={currentProject.smallImages[2]}
+            large={currentProject.images[2]}
+            alt={currentProject.projectName}
+          />
         </div>
       </div>
       <div className='slide-control'>
