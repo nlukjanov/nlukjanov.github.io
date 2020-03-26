@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.addbffb7.chunk.css",
+    "main.css": "/static/css/main.b457f500.chunk.css",
     "main.js": "/static/js/main.75342169.chunk.js",
     "main.js.map": "/static/js/main.75342169.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8b054bcd.js",
@@ -8,9 +8,9 @@
     "static/js/2.a9f827aa.chunk.js": "/static/js/2.a9f827aa.chunk.js",
     "static/js/2.a9f827aa.chunk.js.map": "/static/js/2.a9f827aa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.13bf74bb527e346e4717aa5fd072aadc.js": "/precache-manifest.13bf74bb527e346e4717aa5fd072aadc.js",
+    "precache-manifest.6e52e2db211b6a26ee54b847f17ed611.js": "/precache-manifest.6e52e2db211b6a26ee54b847f17ed611.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.addbffb7.chunk.css.map": "/static/css/main.addbffb7.chunk.css.map",
+    "static/css/main.b457f500.chunk.css.map": "/static/css/main.b457f500.chunk.css.map",
     "static/js/2.a9f827aa.chunk.js.LICENSE.txt": "/static/js/2.a9f827aa.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/FourMasters-VandenKeere.de220267.woff2",
     "static/media/artjourney1.png": "/static/media/artjourney1.c4cf6ca3.png",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.8b054bcd.js",
     "static/js/2.a9f827aa.chunk.js",
-    "static/css/main.addbffb7.chunk.css",
+    "static/css/main.b457f500.chunk.css",
     "static/js/main.75342169.chunk.js"
   ]
 }
