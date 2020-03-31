@@ -29,11 +29,9 @@ body {
 .symbol {
   white-space: pre;
   background-color: $main-color;
-}
-
-.blinking {
   animation: blinkingText 1s infinite;
 }
+
 @keyframes blinkingText {
   0% {
     background-color: $main-color;
@@ -314,10 +312,16 @@ svg {
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .description {
+    font-size: 1.1rem;
+  }
+}
+
 .description {
   margin: 0 auto;
   max-width: 480px;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 .slide-control {

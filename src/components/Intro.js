@@ -12,7 +12,7 @@ const Intro = () => {
           <span className='invert'>software developer</span>
         </h2>
         <h2 className='intro-text'>
-          <span className='symbol blinking'> </span>
+          <span className='symbol'> </span>
         </h2>
         <p className='intro-text'>
           I am a full-stack software engineer skilled in JavaScript and Python.
