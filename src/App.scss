@@ -12,16 +12,16 @@ $main-color: rgb(33, 91, 245);
 
 $primary: $main-color;
 
-@import "../node_modules/bulma/sass/utilities/_all.sass";
-@import "../node_modules/bulma/sass/base/_all.sass";
-@import "../node_modules/bulma/sass/elements/button.sass";
-@import "../node_modules/bulma/sass/elements/container.sass";
-@import "../node_modules/bulma/sass/elements/title.sass";
-@import "../node_modules/bulma/sass/layout/hero.sass";
-@import "../node_modules/bulma/sass/layout/section.sass";
-@import "../node_modules/bulma/sass/layout/footer.sass";
-@import "../node_modules/bulma/sass/grid/columns.sass";
-@import "../node_modules/bulma/sass/components/level.sass";
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+@import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/elements/button.sass';
+@import '../node_modules/bulma/sass/elements/container.sass';
+@import '../node_modules/bulma/sass/elements/title.sass';
+@import '../node_modules/bulma/sass/layout/hero.sass';
+@import '../node_modules/bulma/sass/layout/section.sass';
+@import '../node_modules/bulma/sass/layout/footer.sass';
+@import '../node_modules/bulma/sass/grid/columns.sass';
+@import '../node_modules/bulma/sass/components/level.sass';
 
 body {
   font-family: 'fourmasters-vandenkeere', sans-serif;
@@ -121,7 +121,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 568px) and (min-height: 320px){
+@media only screen and (min-width: 568px) and (min-height: 320px) {
   .intro-text {
     margin: -0.2rem;
     font-size: 0.8rem;
@@ -324,12 +324,11 @@ svg {
   }
 }
 
-.column{
+.column {
   img {
     width: 100%;
   }
 }
-
 
 .description {
   margin: 0 auto;
@@ -450,6 +449,12 @@ svg {
   background-color: $main-color;
   padding: 2rem 0rem;
   color: white;
+  span {
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+  }
 
   a {
     color: white;
