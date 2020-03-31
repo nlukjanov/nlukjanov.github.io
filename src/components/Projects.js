@@ -160,7 +160,7 @@ const Projects = () => {
 
   return (
     <section className='project-block' id='projects'>
-      <div className='is-size-2 has-text-centered is-underlined'>Projects:</div>
+      <div className='is-size-2 has-text-centered is-underlined'>Projects and Tools:</div>
       <h2 className='is-size-3 has-text-centered'>
         {currentProject.projectName}
       </h2>
@@ -201,7 +201,7 @@ const Projects = () => {
       </div>
       <div className='slide-control'>
         <nav
-          className='level is-centered is-mobile'
+          className='is-centered is-mobile'
           role='navigation'
           aria-label='pagination'
         >
