@@ -12,7 +12,17 @@ $main-color: rgb(33, 91, 245);
 
 $primary: $main-color;
 
-@import '../node_modules/bulma';
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/layout/footer.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/components/level.sass";
+
 body {
   font-family: 'fourmasters-vandenkeere', sans-serif;
   color: $main-color;
@@ -269,6 +279,8 @@ a {
 }
 
 .label {
+  font-weight: 700;
+  color: $dark-grey;
   text-align: center;
   font-family: 'Helvetica', sans-serif;
 }
@@ -312,18 +324,24 @@ svg {
   }
 }
 
-@media only screen and (max-width: 375px) {
+.column{
+  img {
+    width: 100%;
+  }
+}
+
+
+.description {
+  margin: 0 auto;
+  padding: 0 3rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 375px) {
   .description {
     font-size: 1.1rem;
   }
 }
-
-.description {
-  margin: 0 auto;
-  max-width: 480px;
-  font-size: 0.9rem;
-}
-
 .slide-control {
   margin: 0 0 2rem 0;
 
