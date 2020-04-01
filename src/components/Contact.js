@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection='vertical'>
       <button onClick={handleFlip} className='button has-text-primary'>
-        Call me to action!
+        Call me to Your action!
       </button>
       <div onClick={handleFlip} className='contact-links'>
         <a

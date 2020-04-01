@@ -8,7 +8,7 @@
 
 $highlight: rgb(0, 249, 0);
 $dark-grey: rgb(74, 74, 74);
-$main-color: rgb(33, 91, 245);
+$main-color: rgb(20, 85, 255);
 
 $primary: $main-color;
 
@@ -228,14 +228,21 @@ body {
 // Contact
 
 .button {
+  font-family: 'fourmasters-vandenkeere', sans-serif;
   font-size: 0.8rem;
   border-radius: 14px;
+  border: 1px solid $main-color;
   padding: calc(0.5em - 1px) 2.5rem;
-  background-image: linear-gradient(180deg, white 55%, $main-color);
 }
 
 .contact {
   margin: 2rem;
+
+  .button {
+    font-family: 'Helvetica', sans-serif;
+    background: linear-gradient(175deg, white 60%, $main-color);
+    box-shadow: inset 8px 20px 22px white, inset -10px -6px 6px $main-color;
+  }
 }
 
 a {
@@ -445,14 +452,26 @@ svg {
 
 // Footer
 
+.buttons {
+  .button {
+    box-shadow: 12px 12px 24px 0px #082266, -12px -8px 20px 4px #209eff;
+  }
+}
+
 .footer {
   background-color: $main-color;
   padding: 2rem 0rem;
   color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 0.6rem;
+  button {
+    font-family: 'Helvetica', sans-serif;
+  }
+  .footer-text {
+    padding-top: 0.6rem;
+  }
   span {
     font-weight: 700;
-    font-size: 1.2rem;
-    font-family: 'Helvetica', sans-serif;
     color: white;
   }
 
