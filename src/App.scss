@@ -258,11 +258,6 @@ a {
   }
 }
 
-a {
-  i {
-    font-size: 1.5rem;
-  }
-}
 
 .contact-link {
   padding-left: 10px;
@@ -280,14 +275,6 @@ a {
 }
 
 // Skills/Tools
-
-.column > i {
-  color: $dark-grey;
-  font-size: 2rem;
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-}
 
 .label {
   font-weight: 700;
@@ -314,10 +301,6 @@ svg {
 
 .skill-highlight {
   .label {
-    color: $main-color;
-  }
-  i {
-    text-align: center;
     color: $main-color;
   }
   figure {
@@ -401,10 +384,6 @@ svg {
 
 .content {
   text-align: center;
-  i {
-    padding: 0 1rem;
-    font-size: 2rem;
-  }
 }
 
 .deployment-links {
@@ -412,22 +391,19 @@ svg {
   display: flex;
   justify-content: space-around;
   a {
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
     &:hover {
-      i {
-        color: $main-color;
+      svg {
+        fill: $main-color;
       }
       .label {
         color: $main-color;
       }
     }
     text-align: center;
-    i {
-      color: $dark-grey;
-      font-size: 2rem;
-      text-align: center;
-      display: inline-block;
-      width: 100%;
-    }
   }
 }
 

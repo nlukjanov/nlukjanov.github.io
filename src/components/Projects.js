@@ -33,6 +33,9 @@ import rs2small from '../images/small/rs2.webp'
 import cj1small from '../images/small/cj1.webp'
 import cj2small from '../images/small/cj2.webp'
 
+import GithubSVG from '../svgs/GithubSVG'
+import HerokuSVG from '../svgs/HerokuSVG'
+
 const projects = [
   {
     projectName: 'Dietlogue',
@@ -142,7 +145,11 @@ const projects = [
     repo: '',
     images: [cj1, cj2],
     smallImages: [cj1small, cj2small],
-    stack: ['devicon-react-original','devicon-git-plain','devicon-visualstudio-plain'],
+    stack: [
+      'devicon-react-original',
+      'devicon-git-plain',
+      'devicon-visualstudio-plain'
+    ],
     description:
       'There are many sources that describe benefits of journaling. I am journaling almost every day. Currently I am working on the project where I the main page will have a calendar format with your journal entries displayed per day. It will be visually very descriptive when did you journal. Color labeling will allow for explicit visual representation of categories.'
   }
@@ -160,7 +167,9 @@ const Projects = () => {
 
   return (
     <section className='project-block' id='projects'>
-      <div className='is-size-2 has-text-centered is-underlined'>Projects and Tools:</div>
+      <div className='is-size-2 has-text-centered is-underlined'>
+        Projects and Tools:
+      </div>
       <h2 className='is-size-3 has-text-centered'>
         {currentProject.projectName}
       </h2>
@@ -180,12 +189,16 @@ const Projects = () => {
           </p>
           <div className='deployment-links'>
             <a href={currentProject.repo}>
-              <i className='devicon-github-plain'></i>
+              <figure className='is-square is-paddingless'>
+                <GithubSVG />
+              </figure>
               <div className='label'>Repo</div>
             </a>
             <a href={currentProject.deployed}>
-              <i className='devicon-heroku-original'></i>
-              <div className='label'>Deployed</div>
+              <figure className='is-square is-paddingless'>
+                <HerokuSVG />
+              </figure>
+              <div className='label'>Live</div>
             </a>
           </div>
         </div>
