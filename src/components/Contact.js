@@ -18,17 +18,6 @@ const Contact = () => {
       <div onClick={handleFlip} className='contact-links'>
         <a
           className='level-item is-centered is-size-6'
-          href='https://github.com/nlukjanov'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <figure className='is-square is-paddingless'>
-            <GithubSVG />
-          </figure>
-          <div className='contact-link'>github.com/nlukjanov</div>
-        </a>
-        <a
-          className='level-item is-centered is-size-6'
           href='https://www.linkedin.com/in/nikita-lukjanov'
           target='_blank'
           rel='noopener noreferrer'
@@ -37,6 +26,17 @@ const Contact = () => {
             <LinkedInSVG />
           </figure>
           <div className='contact-link'>linkedin.com/in/nikita-lukjanov</div>
+        </a>
+        <a
+          className='level-item is-centered is-size-6'
+          href='https://github.com/nlukjanov'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <figure className='is-square is-paddingless'>
+            <GithubSVG />
+          </figure>
+          <div className='contact-link'>github.com/nlukjanov</div>
         </a>
       </div>
     </ReactCardFlip>
