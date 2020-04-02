@@ -1,19 +1,22 @@
 import React from 'react'
 import Contact from './Contact'
+import Typist from 'react-typist'
 
 const Intro = () => {
   return (
     <section className='hero hero-body is-fullheight container' id='intro'>
       <div className='container has-text-centered'>
-        <h1 className='intro-text'>
-          <span className='invert'>Nikita Lukjanov</span>
-        </h1>
-        <h2 className='intro-text'>
-          <span className='invert'>software developer</span>
-        </h2>
-        <h2 className='intro-text'>
-          <span className='symbol'> </span>
-        </h2>
+        <Typist stdTypingDelay={0}>
+          <h1 className='intro-text'>
+            <span className='invert'>Nikita Lukjanov</span>
+          </h1>
+          <h2 className='intro-text'>
+            <span className='invert'>software developer</span>
+          </h2>
+          <h2 className='intro-text'>
+            <span className='symbol'> </span>
+          </h2>
+        </Typist>
         <p className='intro-text'>
           I am a full-stack software engineer skilled in JavaScript and Python.
           I build functional, tested software and I am always up for a
