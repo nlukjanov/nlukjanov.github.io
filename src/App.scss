@@ -31,6 +31,10 @@ body {
 
 // Intro
 
+.hero-body {
+  padding: 1rem 1.5rem;
+}
+
 .invert {
   background-color: $main-color;
   color: white;
@@ -229,14 +233,14 @@ body {
 
 .button {
   font-family: 'fourmasters-vandenkeere', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   border-radius: 14px;
   border: 1px solid $main-color;
   padding: calc(0.5em - 1px) 2.5rem;
 }
 
 .contact {
-  margin: 2rem;
+  margin: 3rem;
 
   .button {
     font-family: 'Helvetica', sans-serif;
@@ -463,12 +467,12 @@ svg {
   padding: 2rem 0rem;
   color: white;
   font-family: 'Helvetica', sans-serif;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   button {
     font-family: 'Helvetica', sans-serif;
   }
   .footer-text {
-    padding-top: 0.6rem;
+    padding-top: 0.8rem;
   }
   span {
     font-weight: 700;
