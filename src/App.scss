@@ -39,7 +39,7 @@ body {
 .symbol {
   white-space: pre;
   background-color: $main-color;
-  animation: blinkingText 1s infinite;
+  animation: blinkingText 1.2s infinite;
 }
 
 @keyframes blinkingText {
