@@ -47,13 +47,11 @@ const projects = [
       'postman',
       'devicon-git-plain',
       'devicon-heroku-original',
-      'devicon-visualstudio-plain',
       'devicon-react-original',
       'devicon-python-plain',
       'devicon-django-plain',
       'devicon-postgresql-plain',
-      'devicon-sass-original',
-      'yarn'
+      'devicon-sass-original'
     ],
     description:
       'It is a food tracker app. It was a pair project built in 6 days using Django and React. Users can create an account and log food they eat. The data is displayed in their account in the form of a weekly chart and daily records. Logs can be edited and back dated. We pair-programmed the back end. I have personally built built: router, secure route, create, edit, log history and navbar. I also made my account page excluding the chart.'
@@ -68,15 +66,13 @@ const projects = [
       'devicon-git-plain',
       'npm',
       'devicon-heroku-original',
-      'devicon-visualstudio-plain',
       'devicon-react-original',
       'devicon-nodejs-plain',
       'devicon-webpack-plain',
       'devicon-mongodb-plain',
       'devicon-express-original',
       'devicon-mocha-plain',
-      'postman',
-      'devicon-trello-plain smaller'
+      'postman'
     ],
     description:
       'A website to find someone to go on holiday with. It was a group project (3 people) built in 6 days using MERN stack. To maximise learning, I suggested rotating, so that each of us worked on models, controllers and front end. We spent a day planning our work and then went executing. I have personally built: user model, user controller, authentication, homepage component with search and filtering, my account page, set up auto-testing.'
@@ -91,7 +87,6 @@ const projects = [
       'devicon-git-plain',
       'npm',
       'devicon-heroku-original',
-      'devicon-visualstudio-plain',
       'devicon-react-original',
       'devicon-webpack-plain',
       'devicon-html5-plain',
@@ -111,7 +106,6 @@ const projects = [
     stack: [
       'devicon-git-plain',
       'devicon-heroku-original',
-      'devicon-visualstudio-plain',
       'devicon-javascript-plain',
       'devicon-html5-plain',
       'devicon-css3-plain'
@@ -147,8 +141,7 @@ const projects = [
     smallImages: [cj1small, cj2small],
     stack: [
       'devicon-react-original',
-      'devicon-git-plain',
-      'devicon-visualstudio-plain'
+      'devicon-git-plain'
     ],
     description:
       'There are many sources that describe benefits of journaling. I am journaling almost every day. Currently I am working on the project where I the main page will have a calendar format with your journal entries displayed per day. It will be visually very descriptive when did you journal. Color labeling will allow for explicit visual representation of categories.'
@@ -183,8 +176,8 @@ const Projects = () => {
             alt={currentProject.projectName}
           />
         </div>
-        <div className='column'>
-          <p className='has-text-centered description'>
+        <div className='column description'>
+          <p className='has-text-centered'>
             {currentProject.description}
           </p>
           <div className='deployment-links'>
@@ -201,15 +194,6 @@ const Projects = () => {
               <div className='label'>Live</div>
             </a>
           </div>
-        </div>
-        <div className='column'>
-          <ModalImage
-            hideDownload={true}
-            hideZoom={true}
-            small={currentProject.smallImages[1]}
-            large={currentProject.images[1]}
-            alt={currentProject.projectName}
-          />
         </div>
       </div>
       <div className='slide-control'>

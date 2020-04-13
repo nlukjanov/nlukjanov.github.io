@@ -1,5 +1,5 @@
+
 import React from 'react'
-import YarnSVG from '../svgs/YarnSVG'
 import NPMSVG from '../svgs/NPMSVG'
 import JSSVG from '../svgs/JSSVG'
 import ReactSVG from '../svgs/ReactSVG'
@@ -18,11 +18,8 @@ import PostgresSVG from '../svgs/PostgresSVG'
 import MochaSVG from '../svgs/MochaSVG'
 import GitSVG from '../svgs/GitSVG'
 import HerokuSVG from '../svgs/HerokuSVG'
-import VSCodeSVG from '../svgs/VSCodeSVG'
 import PostmanSVG from '../svgs/PostmanSVG'
-import TrelloSVG from '../svgs/TrelloSVG'
 import WordPressSVG from '../svgs/WordPressSVG'
-import ExcelSVG from '../svgs/ExcelSVG'
 
 const Skills = ({ stack }) => {
   return (
@@ -199,16 +196,6 @@ const Skills = ({ stack }) => {
         </div>
         <div
           className={
-            `column ${stack.includes('yarn') ? 'skill-highlight' : ''}`
-          }
-        >
-          <figure className='image is-square is-paddingless'>
-            <YarnSVG />
-          </figure>
-          <div className='label'>Yarn</div>
-        </div>
-        <div
-          className={
             'column ' +
             `${
               stack.includes('devicon-postgresql-plain')
@@ -259,21 +246,6 @@ const Skills = ({ stack }) => {
         </div>
         <div
           className={
-            'column ' +
-            `${
-              stack.includes('devicon-visualstudio-plain')
-                ? 'skill-highlight'
-                : ''
-            }`
-          }
-        >
-          <figure className='image is-square is-paddingless'>
-            <VSCodeSVG />
-          </figure>
-          <div className='label'>VSCode</div>
-        </div>
-        <div
-          className={
             `column ${stack.includes('postman') ? 'skill-highlight' : ''}`
           }
         >
@@ -294,31 +266,6 @@ const Skills = ({ stack }) => {
             <WordPressSVG />
           </figure>
           <div className='label'>WordPress</div>
-        </div>
-        <div
-          className={
-            'column ' +
-            `${
-              stack.includes('devicon-trello-plain smaller')
-                ? 'skill-highlight'
-                : ''
-            }`
-          }
-        >
-          <figure className='image is-square is-paddingless'>
-            <TrelloSVG />
-          </figure>
-          <div className='label'>Trello</div>
-        </div>
-        <div
-          className={
-            `column ${stack.includes('excel') ? 'skill-highlight' : ''}`
-          }
-        >
-          <figure className='image is-square is-paddingless'>
-            <ExcelSVG />
-          </figure>
-          <div className='label'>Excel</div>
         </div>
       </div>
     </section>

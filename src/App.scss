@@ -325,14 +325,25 @@ svg {
 }
 
 .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description > p{
   margin: 0 auto;
-  padding: 0 3rem;
   font-size: 0.9rem;
 }
 
 @media only screen and (min-width: 375px) {
-  .description {
+  .description > p {
     font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .description > p {
+    padding: 0 3rem;
   }
 }
 .slide-control {
