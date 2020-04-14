@@ -65,125 +65,107 @@ body {
 }
 
 .intro-text {
-  margin: -0.1rem;
   font-size: 0.9rem;
 }
 
 @media only screen and (min-width: 360px) {
   .intro-text {
-    margin: -0.2rem;
     font-size: 1rem;
   }
 }
 
 @media only screen and (min-width: 375px) {
   .intro-text {
-    margin: -0.2rem;
     font-size: 1.1rem;
   }
 }
 
 @media only screen and (min-width: 375px) and (min-height: 800px) {
   .intro-text {
-    margin: -0.2rem;
     font-size: 1.25rem;
   }
 }
 
 @media only screen and (min-width: 411px) and (min-height: 730px) {
   .intro-text {
-    margin: -0.2rem;
     font-size: 1.25rem;
   }
 }
 
 @media only screen and (min-width: 411px) and (min-height: 820px) {
   .intro-text {
-    margin: -0.2rem;
     font-size: 1.4rem;
   }
 }
 
 @media only screen and (min-width: 414px) {
   .intro-text {
-    margin: -0.2rem;
     font-size: 1.25rem;
   }
 }
 
 @media only screen and (min-width: 455px) {
   .intro-text {
-    margin: -0.2rem;
     font-size: 1.4rem;
   }
 }
 
 @media only screen and (min-width: 556px) {
   .intro-text {
-    margin: -0.2rem;
     font-size: 1.5rem;
   }
 }
 
 @media only screen and (min-width: 568px) and (min-height: 320px) {
   .intro-text {
-    margin: -0.2rem;
     font-size: 0.8rem;
   }
 }
 
 @media only screen and (min-width: 624px) {
   .intro-text {
-    margin: -0.3rem;
     font-size: 1.6rem;
   }
 }
 
 @media only screen and (min-width: 640px) and (min-height: 360px) {
   .intro-text {
-    margin: -0.3rem;
     font-size: 0.9rem;
   }
 }
 
 @media only screen and (min-width: 703px) {
   .intro-text {
-    margin: -0.3rem;
     font-size: 1.7rem;
   }
 }
 
 @media only screen and (min-width: 730px) and (min-height: 411px) {
   .intro-text {
-    margin: -0.3rem;
     font-size: 1.1rem;
   }
 }
 
 @media only screen and (min-width: 768px) and (min-height: 1024px) {
   .intro-text {
-    margin: -0.3rem;
     font-size: 2.1rem;
   }
 }
 
 @media only screen and (min-width: 800px) {
   .intro-text {
-    margin: -0.3rem;
     font-size: 1.8rem;
   }
 }
 
 @media only screen and (min-width: 812px) and (min-height: 375px) {
   .intro-text {
-    margin: -0.3rem;
     font-size: 1.1rem;
   }
 }
 
 @media only screen and (min-width: 823px) and (min-height: 411px) {
   .intro-text {
-    margin: -0.3rem;
     font-size: 1.2rem;
   }
 }
@@ -240,11 +222,10 @@ body {
 }
 
 .contact {
-  margin: 3rem;
+  margin: 3rem 0;
 
   .button {
     font-family: 'Helvetica', sans-serif;
-    background: linear-gradient(175deg, white 60%, $main-color);
     box-shadow: inset 8px 20px 22px white, inset -10px -6px 6px $main-color;
   }
 }
@@ -257,7 +238,6 @@ a {
     }
   }
 }
-
 
 .contact-link {
   padding-left: 10px;
@@ -330,14 +310,29 @@ svg {
   justify-content: center;
 }
 
-.description > p{
-  margin: 0 auto;
-  font-size: 0.9rem;
+.description {
+  p {
+    margin: 0 auto;
+    font-size: 0.9rem;
+  }
+  div {
+    span {
+      margin: 0 auto;
+      font-size: 0.9rem;
+    }
+  }
 }
 
 @media only screen and (min-width: 375px) {
-  .description > p {
-    font-size: 1.1rem;
+  .description {
+    p {
+      font-size: 1.1rem;
+    }
+    div {
+      span {
+        font-size: 1.1rem;
+      }
+    }
   }
 }
 
@@ -377,11 +372,12 @@ svg {
   }
 
   .current {
-    color: white;
+    color: $main-color;
     font-weight: 700;
-    background-color: $main-color;
-    color: white;
+    // background-color: $main-color;
     text-align: center;
+    border: 1px solid $main-color;
+    border-radius: 100px;
   }
 
   .active {
@@ -416,6 +412,16 @@ svg {
     }
     text-align: center;
   }
+}
+
+// About
+
+// Experience
+
+// Interests
+
+.interest {
+  margin-top: 1rem;
 }
 
 // Contact

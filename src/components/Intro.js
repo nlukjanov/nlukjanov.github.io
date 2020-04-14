@@ -4,8 +4,8 @@ import Typist from 'react-typist'
 
 const Intro = () => {
   return (
-    <section className='hero hero-body is-fullheight container' id='intro'>
-      <div className='container has-text-centered'>
+    <section className='hero hero-body is-fullheight' id='intro'>
+      <div className='has-text-centered'>
         <Typist stdTypingDelay={0}>
           <h1 className='intro-text'>
             <span className='invert'>Nikita Lukjanov</span>

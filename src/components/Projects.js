@@ -54,7 +54,7 @@ const projects = [
       'devicon-sass-original'
     ],
     description:
-      'It is a food tracker app. It was a pair project built in 6 days using Django and React. Users can create an account and log food they eat. The data is displayed in their account in the form of a weekly chart and daily records. Logs can be edited and back dated. We pair-programmed the back end. I have personally built built: router, secure route, create, edit, log history and navbar. I also made my account page excluding the chart.'
+      'It is a food tracker app. It was a pair project built in 6 days using Django and React. Users can create an account and log food they eat. The data is displayed in their account in the form of a weekly chart and daily records. Logs can be edited and back dated. We pair-programmed the back end. I have personally built: router, secure route, create, edit, log history and navbar. I also made my account page excluding the chart.'
   },
   {
     projectName: 'Travelr',
