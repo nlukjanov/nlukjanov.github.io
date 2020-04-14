@@ -133,12 +133,12 @@ const Experience = () => {
         </nav>
       </div>
       <div className='columns is-centered'>
-        <div className='column has-text-centered'>
-          <p>{currentExperience.position}</p>
-          <p>{currentExperience.dates}</p>
-          <p>{currentExperience.location}</p>
-        </div>
-        <div className='column description'>
+        <div className='column has-text-centered description'>
+          <div className='experience columns is-desktop'>
+            <div className='column'>{currentExperience.position}</div>
+            <div className='column'>{currentExperience.dates}</div>
+            <div className='column'>{currentExperience.location}</div>
+          </div>
           <p className='has-text-centered'>{currentExperience.description}</p>
         </div>
       </div>

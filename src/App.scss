@@ -317,7 +317,6 @@ svg {
   }
   div {
     span {
-      margin: 0 auto;
       font-size: 0.9rem;
     }
   }
@@ -417,6 +416,13 @@ svg {
 // About
 
 // Experience
+
+.experience {
+  margin-bottom: 1rem;
+  div {
+    font-weight: 600;
+  }
+}
 
 // Interests
 

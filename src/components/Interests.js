@@ -67,7 +67,7 @@ const Interests = () => {
             }
             onClick={handleExperience}
             id='1'
-            aria-label='ga'
+            aria-label='programming'
           >
             Programming
           </button>
@@ -78,7 +78,7 @@ const Interests = () => {
             }
             onClick={handleExperience}
             id='2'
-            aria-label='ga'
+            aria-label='surfing'
           >
             Surfing
           </button>
@@ -89,7 +89,7 @@ const Interests = () => {
             }
             onClick={handleExperience}
             id='3'
-            aria-label='phoenix'
+            aria-label='kite'
           >
             Kite Surfing
           </button>
@@ -100,7 +100,7 @@ const Interests = () => {
             }
             onClick={handleExperience}
             id='4'
-            aria-label='sabbatical'
+            aria-label='snowboard'
           >
             Snowboarding/Skiing
           </button>
@@ -111,7 +111,7 @@ const Interests = () => {
             }
             onClick={handleExperience}
             id='5'
-            aria-label='phoenix'
+            aria-label='climbing'
           >
             Climbing
           </button>
