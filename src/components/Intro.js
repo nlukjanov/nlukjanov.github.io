@@ -18,8 +18,8 @@ const Intro = () => {
           </h2>
         </Typist>
         <p className='intro-text'>
-          I am a full-stack software engineer skilled in JavaScript and Python.
-          I build functional, tested software and I am always up for a
+          I am a software engineer skilled in JavaScript and Python.
+          I enjoy building functional, tested software and I am always up for a
           challenge. I am curious, I like solving complex problems and learning
           new things, be it new skills or new activities. Programming gives me
           exactly that and it is very rewarding to see working software as a
