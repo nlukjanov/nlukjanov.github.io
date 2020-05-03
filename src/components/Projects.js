@@ -17,21 +17,24 @@ import rs1 from '../images/rs1.webp'
 import rs2 from '../images/rs2.webp'
 import cj1 from '../images/cj1.webp'
 import cj2 from '../images/cj2.webp'
+import gq from '../images/gq.webp'
 
-import tetris1small from '../images/small/tetris1.webp'
-import tetris2small from '../images/small/tetris2.webp'
-import artjourney1small from '../images/small/artjourney1.webp'
-import artjourney2small from '../images/small/artjourney2.webp'
-import travelr1small from '../images/small/travelr1.webp'
-import travelr2small from '../images/small/travelr2.webp'
-import dietlogue1small from '../images/small/dietlogue1.webp'
-import dietlogue2small from '../images/small/dietlogue2.webp'
-import baliskin1small from '../images/small/baliskin1.webp'
-import baliskin2small from '../images/small/baliskin2.webp'
-import rs1small from '../images/small/rs1.webp'
-import rs2small from '../images/small/rs2.webp'
-import cj1small from '../images/small/cj1.webp'
-import cj2small from '../images/small/cj2.webp'
+import tetris1small from '../images/small/tetris1Small.webp'
+import tetris2small from '../images/small/tetris2Small.webp'
+import artjourney1small from '../images/small/artjourney1Small.webp'
+import artjourney2small from '../images/small/artjourney2Small.webp'
+import travelr1small from '../images/small/travelr1Small.webp'
+import travelr2small from '../images/small/travelr2Small.webp'
+import dietlogue1small from '../images/small/dietlogue1Small.webp'
+import dietlogue2small from '../images/small/dietlogue2Small.webp'
+import baliskin1small from '../images/small/baliskin1Small.webp'
+import baliskin2small from '../images/small/baliskin2Small.webp'
+import rs1small from '../images/small/rs1Small.webp'
+import rs2small from '../images/small/rs2Small.webp'
+import cj1small from '../images/small/cj1Small.webp'
+import cj2small from '../images/small/cj2Small.webp'
+import gqSmall from '../images/small/gqSmall.webp'
+
 
 import GithubSVG from '../svgs/GithubSVG'
 import HerokuSVG from '../svgs/HerokuSVG'
@@ -132,6 +135,22 @@ const projects = [
     stack: ['devicon-wordpress-plain', 'devicon-css3-plain'],
     description:
       'This is a website for Russian School in London that I was volunteering for. I have used WordPress themes and templates and a bit of custom CSS. I needed easy CMS any person could pick up in case I am not able to maintain the website anymore.WordPress seemed good fit for this purpose.'
+  },
+  {
+    projectName: 'Geo Quiz',
+    deployed: 'https://nl-geoquiz.herokuapp.com/',
+    repo: 'https://github.com/nlukjanov/geoquiz',
+    images: [gq],
+    smallImages: [gqSmall],
+    stack: [
+      'devicon-git-plain',
+      'npm',
+      'devicon-heroku-original',
+      'devicon-react-original',
+      'devicon-sass-original'
+    ],
+    description:
+      'I took advantage of a nice and easy API from restcountries.eu and made a simple geography quiz where you need to guess flag of the country. It was a small project where I was able to practice React Testing Library, React Hooks and React Router.'
   },
   {
     projectName: 'Calendar Journal',
@@ -278,6 +297,17 @@ const Projects = () => {
             aria-label='Goto page 7'
           >
             7
+          </button>
+          <button
+            className={
+              'project-number is-centered is-size-6 ' +
+              `${project === 8 ? 'current' : ''}`
+            }
+            onClick={handleProject}
+            id='8'
+            aria-label='Goto page 8'
+          >
+            8
           </button>
         </nav>
       </div>
