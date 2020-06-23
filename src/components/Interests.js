@@ -5,7 +5,7 @@ const interests = [
     interest: 'programming',
     locations: [],
     description:
-      'My professional developer journey started from the interest in programming. I enjoy iе so much that in my free time you can often find me coding.'
+      'My professional developer journey started from the interest in programming. I enjoy it so much that in my free time you can often find me coding.'
   },
   {
     interest: 'surfing',
