@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.67568130.chunk.css",
-    "main.js": "/static/js/main.abbee428.chunk.js",
-    "main.js.map": "/static/js/main.abbee428.chunk.js.map",
+    "main.js": "/static/js/main.a94114e6.chunk.js",
+    "main.js.map": "/static/js/main.a94114e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.a1a2b9b9.chunk.js": "/static/js/2.a1a2b9b9.chunk.js",
-    "static/js/2.a1a2b9b9.chunk.js.map": "/static/js/2.a1a2b9b9.chunk.js.map",
+    "static/js/2.23c11d5c.chunk.js": "/static/js/2.23c11d5c.chunk.js",
+    "static/js/2.23c11d5c.chunk.js.map": "/static/js/2.23c11d5c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a0a677f697c853756181a42fc7da68ca.js": "/precache-manifest.a0a677f697c853756181a42fc7da68ca.js",
+    "precache-manifest.0ad1397f4e1a25f9380502b8c55d317c.js": "/precache-manifest.0ad1397f4e1a25f9380502b8c55d317c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.67568130.chunk.css.map": "/static/css/main.67568130.chunk.css.map",
-    "static/js/2.a1a2b9b9.chunk.js.LICENSE.txt": "/static/js/2.a1a2b9b9.chunk.js.LICENSE.txt",
+    "static/js/2.23c11d5c.chunk.js.LICENSE.txt": "/static/js/2.23c11d5c.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/FourMasters-VandenKeere.de220267.woff2",
     "static/media/artjourney1.webp": "/static/media/artjourney1.9e636d7b.webp",
     "static/media/artjourney1Small.webp": "/static/media/artjourney1Small.a3868b90.webp",
@@ -31,6 +31,8 @@
     "static/media/dietlogue2Small.webp": "/static/media/dietlogue2Small.a65b438b.webp",
     "static/media/gq.webp": "/static/media/gq.b20968f1.webp",
     "static/media/gqSmall.webp": "/static/media/gqSmall.68c11aa0.webp",
+    "static/media/plantshop.webp": "/static/media/plantshop.3de599e9.webp",
+    "static/media/plantshopSmall.webp": "/static/media/plantshopSmall.4efb0cb5.webp",
     "static/media/rs1.webp": "/static/media/rs1.e32b73d7.webp",
     "static/media/rs1Small.webp": "/static/media/rs1Small.dab43cee.webp",
     "static/media/rs2.webp": "/static/media/rs2.38ade3e0.webp",
@@ -46,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
-    "static/js/2.a1a2b9b9.chunk.js",
+    "static/js/2.23c11d5c.chunk.js",
     "static/css/main.67568130.chunk.css",
-    "static/js/main.abbee428.chunk.js"
+    "static/js/main.a94114e6.chunk.js"
   ]
 }

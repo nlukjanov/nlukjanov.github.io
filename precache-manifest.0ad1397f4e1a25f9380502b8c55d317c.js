@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eeb1d82a4beef087bb8537f0e471ba58",
+    "revision": "447418526fb65b311d9589d0197b94dc",
     "url": "/index.html"
   },
   {
-    "revision": "519f3f8e2621286d6228",
+    "revision": "22321b2b704b3309877d",
     "url": "/static/css/main.67568130.chunk.css"
   },
   {
-    "revision": "e5771c8a79806a3ea7fc",
-    "url": "/static/js/2.a1a2b9b9.chunk.js"
+    "revision": "d876609ec42b8b8f73d5",
+    "url": "/static/js/2.23c11d5c.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.a1a2b9b9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.23c11d5c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "519f3f8e2621286d6228",
-    "url": "/static/js/main.abbee428.chunk.js"
+    "revision": "22321b2b704b3309877d",
+    "url": "/static/js/main.a94114e6.chunk.js"
   },
   {
     "revision": "dd8147bbe7734801bdde",
@@ -98,6 +98,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "68c11aa0021aa1714ea2fe456116a3f3",
     "url": "/static/media/gqSmall.68c11aa0.webp"
+  },
+  {
+    "revision": "3de599e917845bc4f0540f0c9d1f5a85",
+    "url": "/static/media/plantshop.3de599e9.webp"
+  },
+  {
+    "revision": "4efb0cb59936279ae258ea492d789ca5",
+    "url": "/static/media/plantshopSmall.4efb0cb5.webp"
   },
   {
     "revision": "e32b73d75528ab36cb80bd06aa46adc4",
