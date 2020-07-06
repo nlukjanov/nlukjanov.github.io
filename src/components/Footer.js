@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import Contact from './Contact'
+import Contact from './Contact';
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
         <p className='has-text-centered'>Nikita Lukjanov (c) 2020</p>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

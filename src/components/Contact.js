@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
-import ReactCardFlip from 'react-card-flip'
-import LinkedInSVG from '../svgs/LinkedInSVG'
-import GithubSVG from '../svgs/GithubSVG'
+import React, { useState } from 'react';
+import ReactCardFlip from 'react-card-flip';
+import LinkedInSVG from '../svgs/LinkedInSVG';
+import GithubSVG from '../svgs/GithubSVG';
 
 const Contact = () => {
-  const [isFlipped, setIsFlipped] = useState(false)
+  const [isFlipped, setIsFlipped] = useState(false);
 
   function handleFlip() {
-    setIsFlipped(prevState => ({ isFlipped: !prevState.isFlipped }))
+    setIsFlipped((prevState) => ({ isFlipped: !prevState.isFlipped }));
   }
 
   return (
@@ -40,7 +40,7 @@ const Contact = () => {
         </a>
       </div>
     </ReactCardFlip>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

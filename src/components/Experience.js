@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const experience = [
   {
@@ -43,16 +43,16 @@ const experience = [
     description:
       'Great academic education. I learned how to learn and it gave me a fundamental basis for future studies and work.'
   }
-]
+];
 
 const Experience = () => {
-  const [project, setProject] = useState(1)
+  const [project, setProject] = useState(1);
 
-  const [currentExperience, setCurrentExperience] = useState(experience[0])
+  const [currentExperience, setCurrentExperience] = useState(experience[0]);
 
   function handleExperience(e) {
-    setProject(parseInt(e.target.id))
-    setCurrentExperience(experience[parseInt(e.target.id) - 1])
+    setProject(parseInt(e.target.id));
+    setCurrentExperience(experience[parseInt(e.target.id) - 1]);
   }
 
   return (
@@ -143,7 +143,7 @@ const Experience = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

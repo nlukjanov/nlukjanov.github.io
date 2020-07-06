@@ -1,25 +1,24 @@
-
-import React from 'react'
-import NPMSVG from '../svgs/NPMSVG'
-import JSSVG from '../svgs/JSSVG'
-import ReactSVG from '../svgs/ReactSVG'
-import NodeSVG from '../svgs/NodeSVG'
-import ExpressSVG from '../svgs/ExpressSVG'
-import MongoSVG from '../svgs/MongoSVG'
-import PythonSVG from '../svgs/PythonSVG'
-import DjangoSVG from '../svgs/DjangoSVG'
-import WebpackSVG from '../svgs/WebpackSVG'
-import HTMLSVG from '../svgs/HTMLSVG'
-import CSSSVG from '../svgs/CSSSVG'
-import SassSVG from '../svgs/SassSVG'
-import RubySVG from '../svgs/RubySVG'
-import RailsSVG from '../svgs/RailsSVG'
-import PostgresSVG from '../svgs/PostgresSVG'
-import MochaSVG from '../svgs/MochaSVG'
-import GitSVG from '../svgs/GitSVG'
-import HerokuSVG from '../svgs/HerokuSVG'
-import PostmanSVG from '../svgs/PostmanSVG'
-import WordPressSVG from '../svgs/WordPressSVG'
+import React from 'react';
+import NPMSVG from '../svgs/NPMSVG';
+import JSSVG from '../svgs/JSSVG';
+import ReactSVG from '../svgs/ReactSVG';
+import NodeSVG from '../svgs/NodeSVG';
+import ExpressSVG from '../svgs/ExpressSVG';
+import MongoSVG from '../svgs/MongoSVG';
+import PythonSVG from '../svgs/PythonSVG';
+import DjangoSVG from '../svgs/DjangoSVG';
+import WebpackSVG from '../svgs/WebpackSVG';
+import HTMLSVG from '../svgs/HTMLSVG';
+import CSSSVG from '../svgs/CSSSVG';
+import SassSVG from '../svgs/SassSVG';
+import ReduxSVG from '../svgs/ReduxSVG';
+import FirebaseSVG from '../svgs/FirebaseSVG';
+import PostgresSVG from '../svgs/PostgresSVG';
+import MochaSVG from '../svgs/MochaSVG';
+import GitSVG from '../svgs/GitSVG';
+import HerokuSVG from '../svgs/HerokuSVG';
+import PostmanSVG from '../svgs/PostmanSVG';
+import WordPressSVG from '../svgs/WordPressSVG';
 
 const Skills = ({ stack }) => {
   return (
@@ -165,29 +164,27 @@ const Skills = ({ stack }) => {
         <div
           className={
             'column ' +
-            `${stack.includes('devicon-ruby-plain') ? 'skill-highlight' : ''}`
+            `${stack.includes('redux') ? 'skill-highlight' : ''}`
           }
         >
           <figure className='image is-square is-paddingless'>
-            <RubySVG />
+            <ReduxSVG />
           </figure>
-          <div className='label'>Ruby</div>
+          <div className='label'>Redux</div>
         </div>
         <div
           className={
             'column ' +
-            `${stack.includes('devicon-rails-plain') ? 'skill-highlight' : ''}`
+            `${stack.includes('firebase') ? 'skill-highlight' : ''}`
           }
         >
           <figure className='image is-square is-paddingless'>
-            <RailsSVG />
+            <FirebaseSVG />
           </figure>
-          <div className='label'>Rails</div>
+          <div className='label'>Firebase</div>
         </div>
         <div
-          className={
-            `column ${stack.includes('npm') ? 'skill-highlight' : ''}`
-          }
+          className={`column ${stack.includes('npm') ? 'skill-highlight' : ''}`}
         >
           <figure className='image is-square is-paddingless'>
             <NPMSVG />
@@ -245,9 +242,9 @@ const Skills = ({ stack }) => {
           <div className='label'>Heroku</div>
         </div>
         <div
-          className={
-            `column ${stack.includes('postman') ? 'skill-highlight' : ''}`
-          }
+          className={`column ${
+            stack.includes('postman') ? 'skill-highlight' : ''
+          }`}
         >
           <figure className='image is-square is-paddingless'>
             <PostmanSVG />
@@ -269,7 +266,7 @@ const Skills = ({ stack }) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
