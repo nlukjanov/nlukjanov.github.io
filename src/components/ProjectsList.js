@@ -36,7 +36,7 @@ const projects = [
   {
     projectName: 'Plant Shop',
     deployed: 'https://nl-plantshop.herokuapp.com/',
-    repo: 'https://github.com/nlukjanov/geoquiz',
+    repo: 'https://github.com/nlukjanov/nl-plantshop',
     images: [plantshop],
     smallImages: [plantshopSmall],
     stack: [
@@ -48,7 +48,7 @@ const projects = [
       'firebase'
     ],
     description:
-      'E-commerce shop project to learn new technologies. I used Google Firebase to handle my backend and focused on developing front-end app. I used React with Redux for state management. Later implemented Redux-Sagas for handling async operations. Started with class components and refactored into React Hooks. For styling used Styled Components. Integrated Stripe for payments handling.'
+      'E-commerce shop project to learn new technologies. I used Google Firebase to handle my backend and focused on developing front-end app, based on React with Redux for state management. Later implemented Redux-Sagas for handling async operations. Started with class components and refactored into React Hooks. For styling used Styled Components. Integrated Stripe for payments handling. Used lazy loading for routed components.'
   },
   {
     projectName: 'Geo Quiz',
