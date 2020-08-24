@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.67568130.chunk.css",
-    "main.js": "/static/js/main.684e3894.chunk.js",
-    "main.js.map": "/static/js/main.684e3894.chunk.js.map",
+    "main.css": "/static/css/main.6f2e1f4e.chunk.css",
+    "main.js": "/static/js/main.3ebb8477.chunk.js",
+    "main.js.map": "/static/js/main.3ebb8477.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
     "static/js/2.23c11d5c.chunk.js": "/static/js/2.23c11d5c.chunk.js",
     "static/js/2.23c11d5c.chunk.js.map": "/static/js/2.23c11d5c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.367852144a094b5fdda7789dcddfcff0.js": "/precache-manifest.367852144a094b5fdda7789dcddfcff0.js",
+    "precache-manifest.aaf5d6213878b7f5c897dd450efb1d94.js": "/precache-manifest.aaf5d6213878b7f5c897dd450efb1d94.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.67568130.chunk.css.map": "/static/css/main.67568130.chunk.css.map",
+    "static/css/main.6f2e1f4e.chunk.css.map": "/static/css/main.6f2e1f4e.chunk.css.map",
     "static/js/2.23c11d5c.chunk.js.LICENSE.txt": "/static/js/2.23c11d5c.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/FourMasters-VandenKeere.de220267.woff2",
     "static/media/artjourney1.webp": "/static/media/artjourney1.9e636d7b.webp",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
     "static/js/2.23c11d5c.chunk.js",
-    "static/css/main.67568130.chunk.css",
-    "static/js/main.684e3894.chunk.js"
+    "static/css/main.6f2e1f4e.chunk.css",
+    "static/js/main.3ebb8477.chunk.js"
   ]
 }
