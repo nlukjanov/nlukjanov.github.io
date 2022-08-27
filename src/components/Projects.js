@@ -4,7 +4,6 @@ import ModalImage from 'react-modal-image';
 import Skills from './Skills';
 
 import GithubSVG from '../svgs/GithubSVG';
-import HerokuSVG from '../svgs/HerokuSVG';
 
 import projects from './ProjectsList';
 
@@ -44,12 +43,6 @@ const Projects = () => {
                 <GithubSVG />
               </figure>
               <div className='label'>Repo</div>
-            </a>
-            <a href={currentProject.deployed}>
-              <figure className='is-square is-paddingless'>
-                <HerokuSVG />
-              </figure>
-              <div className='label'>Live</div>
             </a>
           </div>
         </div>

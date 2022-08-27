@@ -35,7 +35,7 @@ import plantshopSmall from '../images/small/plantshopSmall.webp';
 const projects = [
   {
     projectName: 'Plant Shop',
-    deployed: 'https://nl-plantshop.herokuapp.com/',
+    deployed: '',
     repo: 'https://github.com/nlukjanov/nl-plantshop',
     images: [plantshop],
     smallImages: [plantshopSmall],
@@ -45,14 +45,14 @@ const projects = [
       'devicon-heroku-original',
       'devicon-react-original',
       'redux',
-      'firebase'
+      'firebase',
     ],
     description:
-      'E-commerce shop project to learn new technologies. I used Google Firebase to handle my backend and focused on developing front-end app, based on React with Redux for state management. Later implemented Redux-Sagas for handling async operations. Started with class components and refactored into React Hooks. For styling used Styled Components. Integrated Stripe for payments handling. Used lazy loading for routed components.'
+      'E-commerce shop project to learn new technologies. I used Google Firebase to handle my backend and focused on developing front-end app, based on React with Redux for state management. Later implemented Redux-Sagas for handling async operations. Started with class components and refactored into React Hooks. For styling used Styled Components. Integrated Stripe for payments handling. Used lazy loading for routed components.',
   },
   {
     projectName: 'Geo Quiz',
-    deployed: 'https://nl-geoquiz.herokuapp.com/',
+    deployed: '',
     repo: 'https://github.com/nlukjanov/geoquiz',
     images: [gq],
     smallImages: [gqSmall],
@@ -61,14 +61,14 @@ const projects = [
       'npm',
       'devicon-heroku-original',
       'devicon-react-original',
-      'devicon-sass-original'
+      'devicon-sass-original',
     ],
     description:
-      'I took advantage of a nice and easy API from restcountries.eu and made a simple geography quiz where you need to guess flag of the country. It was a small project where I was able to practice React Testing Library, React Hooks and React Router.'
+      'I took advantage of a nice and easy API from restcountries.eu and made a simple geography quiz where you need to guess flag of the country. It was a small project where I was able to practice React Testing Library, React Hooks and React Router.',
   },
   {
     projectName: 'Dietlogue',
-    deployed: 'http://bit.ly/nl-sei4-live',
+    deployed: '',
     repo: 'http://bit.ly/nl-sei4-repo',
     images: [dietlogue1, dietlogue2],
     smallImages: [dietlogue1small, dietlogue2small],
@@ -80,14 +80,14 @@ const projects = [
       'devicon-python-plain',
       'devicon-django-plain',
       'devicon-postgresql-plain',
-      'devicon-sass-original'
+      'devicon-sass-original',
     ],
     description:
-      'It is a food tracker app. It was a pair project built in 6 days using Django and React. Users can create an account and log food they eat. The data is displayed in their account in the form of a weekly chart and daily records. Logs can be edited and back dated. We pair-programmed the back end. I have personally built: router, secure route, create, edit, log history and navbar. I also made my account page excluding the chart.'
+      'It is a food tracker app. It was a pair project built in 6 days using Django and React. Users can create an account and log food they eat. The data is displayed in their account in the form of a weekly chart and daily records. Logs can be edited and back dated. We pair-programmed the back end. I have personally built: router, secure route, create, edit, log history and navbar. I also made my account page excluding the chart.',
   },
   {
     projectName: 'Travelr',
-    deployed: 'http://bit.ly/nl-sei3-live',
+    deployed: '',
     repo: 'http://bit.ly/nl-sei3-repo',
     images: [travelr1, travelr2],
     smallImages: [travelr1small, travelr2small],
@@ -101,14 +101,14 @@ const projects = [
       'devicon-mongodb-plain',
       'devicon-express-original',
       'devicon-mocha-plain',
-      'postman'
+      'postman',
     ],
     description:
-      'A website to find someone to go on holiday with. It was a group project (3 people) built in 6 days using MERN stack. To maximise learning, I suggested rotating, so that each of us worked on models, controllers and front end. We spent a day planning our work and then went executing. I have personally built: user model, user controller, authentication, homepage component with search and filtering, my account page, set up auto-testing.'
+      'A website to find someone to go on holiday with. It was a group project (3 people) built in 6 days using MERN stack. To maximise learning, I suggested rotating, so that each of us worked on models, controllers and front end. We spent a day planning our work and then went executing. I have personally built: user model, user controller, authentication, homepage component with search and filtering, my account page, set up auto-testing.',
   },
   {
     projectName: 'Art Journey',
-    deployed: 'http://bit.ly/nl-sei2-live',
+    deployed: '',
     repo: 'http://bit.ly/nl-sei2-repo',
     images: [artjourney1, artjourney2],
     smallImages: [artjourney1small, artjourney2small],
@@ -121,14 +121,14 @@ const projects = [
       'devicon-html5-plain',
       'devicon-css3-plain',
       'devicon-sass-original',
-      'postman'
+      'postman',
     ],
     description:
-      'Pair programming project built using React in 2 days. My partner and I used RijksMuseum API to build a website for searching art pieces that are present in the collection. Great experience in building functional and stateful React components, handling multiple sequential API requests and using ternary operators for conditional displaying of elements.'
+      'Pair programming project built using React in 2 days. My partner and I used RijksMuseum API to build a website for searching art pieces that are present in the collection. Great experience in building functional and stateful React components, handling multiple sequential API requests and using ternary operators for conditional displaying of elements.',
   },
   {
     projectName: 'Tetris',
-    deployed: 'http://bit.ly/nl-sei1-heroku',
+    deployed: '',
     repo: 'http://bit.ly/nl-sei1-repo',
     images: [tetris1, tetris2],
     smallImages: [tetris1small, tetris2small],
@@ -137,10 +137,10 @@ const projects = [
       'devicon-heroku-original',
       'devicon-javascript-plain',
       'devicon-html5-plain',
-      'devicon-css3-plain'
+      'devicon-css3-plain',
     ],
     description:
-      'First solo project after introduction to HTML, CSS and JS. Build in 6 days using vanilla JS. I had to break down the process to smaller scopes, such as creating a game board and tetrominoes, add manipulation, boundaries and scores. I added sounds and persistent leaderboard using local storage.'
+      'First solo project after introduction to HTML, CSS and JS. Build in 6 days using vanilla JS. I had to break down the process to smaller scopes, such as creating a game board and tetrominoes, add manipulation, boundaries and scores. I added sounds and persistent leaderboard using local storage.',
   },
   {
     projectName: 'Bali Skin',
@@ -150,7 +150,7 @@ const projects = [
     smallImages: [baliskin1small, baliskin2small],
     stack: ['devicon-wordpress-plain', 'devicon-css3-plain'],
     description:
-      'This is an e-commerce website that I have built while travelling. I have used WordPress themes and templates and bit of custom CSS. WordPress has a straight forward content management system which was suitable for this project.'
+      'This is an e-commerce website that I have built while travelling. I have used WordPress themes and templates and bit of custom CSS. WordPress has a straight forward content management system which was suitable for this project.',
   },
   {
     projectName: 'Russian School',
@@ -160,7 +160,7 @@ const projects = [
     smallImages: [rs1small, rs2small],
     stack: ['devicon-wordpress-plain', 'devicon-css3-plain'],
     description:
-      'This is a website for Russian School in London that I was volunteering for. I have used WordPress themes and templates and a bit of custom CSS. I needed easy CMS any person could pick up in case I am not able to maintain the website anymore.WordPress seemed good fit for this purpose.'
+      'This is a website for Russian School in London that I was volunteering for. I have used WordPress themes and templates and a bit of custom CSS. I needed easy CMS any person could pick up in case I am not able to maintain the website anymore.WordPress seemed good fit for this purpose.',
   },
   {
     projectName: 'Calendar Journal',
@@ -170,8 +170,8 @@ const projects = [
     smallImages: [cj1small, cj2small],
     stack: ['devicon-react-original', 'devicon-git-plain'],
     description:
-      'There are many sources that describe benefits of journaling. I am journaling almost every day. Currently I am working on the project where I the main page will have a calendar format with your journal entries displayed per day. It will be visually very descriptive when did you journal. Color labeling will allow for explicit visual representation of categories.'
-  }
+      'There are many sources that describe benefits of journaling. I am journaling almost every day. Currently I am working on the project where I the main page will have a calendar format with your journal entries displayed per day. It will be visually very descriptive when did you journal. Color labeling will allow for explicit visual representation of categories.',
+  },
 ];
 
 export default projects;
